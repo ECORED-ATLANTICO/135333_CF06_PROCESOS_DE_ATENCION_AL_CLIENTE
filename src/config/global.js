@@ -53,6 +53,12 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Tema 3',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'tema4',
         numero: '4',
         titulo: 'Tema 4',

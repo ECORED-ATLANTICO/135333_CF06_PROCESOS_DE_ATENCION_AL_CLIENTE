@@ -175,33 +175,29 @@
                 th.col-auto.col-lg-auto Observaciones estratégicas
             tbody
               tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
+                td.text-start Saludo y presentación del asesor.
+                td.text-start Chat en vivo, videollamada, correo electrónico
+                td.text-start Establece rapport y genera confianza desde el inicio.
               tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
+                td.text-start Identificación de necesidades del cliente.
+                td.text-start Formulario en CRM, cuestionario interactivo
+                td.text-start Permite recopilar información precisa y segmentar al cliente según sus preferencias y perfil.
               tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
+                td.text-start Presentación de soluciones.
+                td.text-start Catálogo digital, demostraciones virtuales, videos explicativos
+                td.text-start Muestra productos o servicios de manera clara, resaltando beneficios y diferenciadores.
               tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
+                td.text-start Registro de interacción.
+                td.text-start CRM con campos de comentarios, historial de compras y preferencias
+                td.text-start Facilita seguimiento futuro, personalización de ofertas y análisis de comportamiento.
               tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
+                td.text-start Confirmación de satisfacción.
+                td.text-start Encuesta rápida, mensaje automatizado de confirmación
+                td.text-start Verifica que el cliente está satisfecho y genera oportunidades de mejora.
               tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
-              tr
-                td.text-start 
-                td.text-start 
-                td.text-start 
+                td.text-start Programación de seguimiento.
+                td.text-start Alertas en CRM, recordatorios automáticos, notificaciones push
+                td.text-start Mantiene la relación postventa activa, fomenta fidelización y posibles ventas futuras.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="flip-left")
       h5 Figura 2.
@@ -236,27 +232,52 @@
     .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-cv")
-          div(titulo="")
-            p.mb-0 
-            p.mb-0 #[strong Ejemplo práctico:] 
-          div(titulo="")
-            p.mb-0 
-            p.mb-0 #[strong Ejemplo práctico:] 
-          div(titulo="")
-            p.mb-0 
-            p.mb-0 #[strong Ejemplo práctico:] 
-          div(titulo="")
-            p.mb-0 
-            p.mb-0 #[strong Ejemplo práctico:] 
-          div(titulo="")
-            p.mb-0 
-            p.mb-0 #[strong Ejemplo práctico:] 
-          div(titulo="")
-            p.mb-0 
-            p.mb-0 #[strong Ejemplo práctico:] 
+          div(titulo="Llamadas de verificación")
+            p.mb-0 Confirmar satisfacción y resolver dudas. 
+            p.mb-0 #[strong Ejemplo práctico:] un asesor llama 3 días después de recibir un electrodoméstico para asegurarse de que funciona correctamente.
+          div(titulo="Correos electrónicos personalizados")
+            p.mb-0 Recordar mantenimiento, promociones o productos complementarios.
+            p.mb-0 #[strong Ejemplo práctico:] enviar un email con tips de uso del producto comprado y ofertas relacionadas
+          div(titulo="Notificaciones automáticas")
+            p.mb-0 Alertar sobre próximos servicios, vencimientos o novedades.
+            p.mb-0 #[strong Ejemplo práctico:] app envía notificación sobre actualización de software o revisión preventiva.
+          div(titulo="Encuestas postventa")
+            p.mb-0 Medir la experiencia del cliente.
+            p.mb-0 #[strong Ejemplo práctico:] encuesta NPS o CSAT enviada automáticamente tras la compra.
+          div(titulo="Gestión proactiva de incidencias")
+            p.mb-0 Resolver problemas antes de que escalen.
+            p.mb-0 #[strong Ejemplo práctico:] CRM alerta que un cliente reportó retrasos en envíos anteriores y programa seguimiento inmediato.
       .col-8.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema1/img_25.png', class="img-fluid")
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-10.mb-0
+        .cajon.color-acento-botones.p-5(data-aos="zoom-in-right")
+          p.mb-0 Un seguimiento efectivo no solo soluciona problemas, sino que también refuerza la confianza, impulsa la fidelización y aumenta la probabilidad de recompras y recomendaciones.
+  
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-12.col-lg-10
+        .tarjeta.color-terciario-cv.rounded-0.p-4.p-lg-5
+          .row.align-items-center
+            .col-8.col-md-4.col-lg-2.mx-auto.text-center.mb-4.mb-lg-0
+              figure.m-0
+                img(src="@/assets/curso/tema1/img_11.svg", alt="Icono video", class="img-fluid w-100")
+            .col-12.col-md-8.col-lg-10
+              .row.justify-content-between.align-items-center.mb-4
+                .col-12.col-lg-9.mb-3.mb-lg-0
+                  p.mb-0 Con el fin de profundizar en las estrategias de postventa digital y la importancia del seguimiento posterior a la compra, consulte el siguiente material. Este recurso explica cómo la postventa fortalece la relación con el cliente y contribuye a la recompra y lealtad: 
+                .col-12.col-lg-auto.text-center
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=qX4N28LpIQo" target="_blank")
+                    span Ver video
+                    i.fas.fa-file-download.ms-2
+              .row.justify-content-between.align-items-center
+                .col-12.col-lg-9.mb-3.mb-lg-0
+                  p.mb-0 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
+                .col-12.col-lg-auto.text-center
+                  a.boton.color-acento-botones(href="https://revistacientifica.fce.unam.edu.ar/index.php/visiondefuturo/article/view/557/433" target="_blank")
+                    span Ver video
+                    i.fas.fa-file-download.ms-2
 </template>
 
 <script>
