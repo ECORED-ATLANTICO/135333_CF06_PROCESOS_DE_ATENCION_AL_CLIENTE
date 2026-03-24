@@ -1,45 +1,154 @@
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 26%
+    right: 15%
+    width: 100px
+    animation: orbitPerfect 8s linear infinite
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+  &-2
+    position: absolute
+    top: 68%
+    right: 90%
+    width: 100px
+    animation: orbitPerfect 10s linear infinite
+
+  &-3
+    position: absolute
+    top: 70%
+    right: 20%
+    width: 80px
+    animation: orbitPerfect 12s linear infinite
+
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1
+      top: 26%
+      right: 15%
+      width: 120px
+    &-2
+      top: 68%
+      right: 90%
+      width: 130px
+    &-3
+      top: 70%
+      right: 20%
+      width: 110px
+
+@keyframes orbitPerfect
+  from
+    transform: rotate(0deg) translateX(12px) rotate(0deg)
+  to
+    transform: rotate(360deg) translateX(12px) rotate(-360deg)
+    
 .banner-principal .tarjeta
   background-position: left 50% !important
 
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido-v !important
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner_interno.png') !important
+
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+  padding-bottom: 0rem !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  @media screen and (max-width: 769px)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-xs.png) !important
+  @media screen and (max-width: 430px)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-sm.png) !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: $color-sistema-texto
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto !important
 
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: $white
+
+.banner-interno__titulo__icono 
+  background: $color-primario
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto
+ 
+.barra-avance__boton--regresar span
+  color: $color-sistema-texto !important
 
 figcaption
   font-weight: normal
 
-.banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+////tabs-b
+.tabs-b.color-secundario .tabs-b__tab--active
+  border-right: 0px
+  background-color: $color-acento-contenido-cv
+.tabs-b__tab
+  background-color: $color-primario-cv
+  border-right: 2px solid $color-primario
+  border-bottom: 2px solid $color-acento-contenido-cv
+.tabs-b__tab:last-child 
+  border-right: 2px solid $color-primario
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    color: $white
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+  
+// Tabla a 
+.tabla-a thead
+  border-top: 10px $color-primario-v solid
+  color: $color-sistema-a
+  background-color: $color-primario-cv
+
+.bg-table-01
+  background-color: $color-adicional-2
+  color: $color-sistema-texto
+.b 
+  font-weight: bold
+
+// acordion
+.acordion__activo
+  background-image: url('../assets/curso/tema1/img_24.png') 
+  background-repeat: no-repeat
+  background-size: cover 
+  background-position: center
+  overflow: hidden 
+.acordion__contenido 
+  padding-left: 3.5rem
