@@ -613,6 +613,32 @@
       background-color: $color-secundario
       div
         color: textColor($color-secundario)
+  &.color-secundario-v
+    border-color: $color-secundario-v 
+    background-color: $color-secundario-v 
+    .tarjeta-numerada__numero
+      width: 70px
+      height: 70px
+      background-color: $white
+      border-radius: 50%
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translate(-50%, -50%)
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+      div
+        color: textColor($color-secundario-v)
+    .tarjeta-numerada__numero img
+      width: 40px
+      height: auto
+      transform: translate(35%, -50%)
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
   &.color-acento-contenido
     border-color: $color-acento-contenido
     .tarjeta-numerada__numero

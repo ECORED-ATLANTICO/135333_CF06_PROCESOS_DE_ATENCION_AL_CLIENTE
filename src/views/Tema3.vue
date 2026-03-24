@@ -35,6 +35,7 @@
               .col-3.col-lg-1.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema3/img_4.svg', class="img-fluid")
+
       Separador
 
       #t_3_2.titulo-segundo.color-acento-contenido

@@ -44,7 +44,6 @@
           .cajon.color-terciario.p-4(data-aos="zoom-in-right")
             p.mb-0 El marketing relacional también integra herramientas tecnológicas como sistemas CRM, automatización de comunicaciones y análisis de datos, lo que permite segmentar, personalizar y medir la efectividad de las acciones implementadas.
 
-
     Separador
 
     #t_5_2.titulo-segundo.color-acento-contenido
@@ -58,7 +57,95 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Para aplicar el marketing relacional de manera efectiva, las organizaciones desarrollan estrategias que buscan fortalecer el vínculo con el cliente a lo largo del tiempo. Estas estrategias combinan comunicación, personalización, seguimiento y generación de valor agregado. A continuación, se presentan las principales estrategias utilizadas en el marketing relacional:
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema5/img_7.png', class="img-fluid")
+      .col-12.col-lg-9.mb-0
+        p.mb-3(data-aos="zoom-in-right")
+        TabsA.color-primario-o.mb-0
+          .tarjeta.color-primario-cv.p-4(titulo="Programas de fidelización")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-7.order-2.order-lg-1.mb-3
+                p.mb-0 Sistemas de recompensas que incentivan la repetición de compra y fortalecen la lealtad.
+                p.mb-3 #[strong Ejemplo práctico:] acumulación de puntos por compras que pueden redimirse por descuentos o productos.
+              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+                figure
+                  img(src='@/assets/curso/tema5/img_8.svg', class="img-fluid")
+          .tarjeta.color-primario-cv.p-4(titulo="Personalización de la oferta.")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-7.order-2.order-lg-1.mb-3
+                p.mb-0 Adaptación de productos, servicios y comunicaciones según el perfil del cliente.
+                p.mb-3 #[strong Ejemplo práctico:] envío de promociones basadas en historial de compras y preferencias registradas.
+              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+                figure
+                  img(src='@/assets/curso/tema5/img_9.svg', class="img-fluid")
+          .tarjeta.color-primario-cv.p-4(titulo="Comunicación continua")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-7.order-2.order-lg-1.mb-3
+                p.mb-0 Interacción permanente mediante canales digitales y tradicionales para mantener el vínculo.
+                p.mb-3 #[strong Ejemplo práctico:]  envío de boletines informativos con novedades, promociones y contenido de valor.
+              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+                figure
+                  img(src='@/assets/curso/tema5/img_10.svg', class="img-fluid")
+          .tarjeta.color-primario-cv.p-4(titulo="Atención postventa.")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-7.order-2.order-lg-1.mb-3
+                p.mb-0 Seguimiento después de la compra para garantizar satisfacción y resolver inquietudes.
+                p.mb-3 #[strong Ejemplo práctico:] llamada de verificación días después de la entrega de un producto.
+              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+                figure
+                  img(src='@/assets/curso/tema5/img_11.svg', class="img-fluid")
+          .tarjeta.color-primario-cv.p-4(titulo="Gestión de bases de datos (CRM).")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-7.order-2.order-lg-1.mb-3
+                p.mb-0 Uso de sistemas tecnológicos para almacenar y analizar información del cliente.
+                p.mb-3 #[strong Ejemplo práctico:] registro de historial de compras y comportamiento para diseñar campañas segmentadas.
+              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+                figure
+                  img(src='@/assets/curso/tema5/img_12.svg', class="img-fluid")
+          .tarjeta.color-primario-cv.p-4(titulo="Marketing de contenido.")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-7.order-2.order-lg-1.mb-3
+                p.mb-0 Generación de información útil y relevante que fortalece la relación con el cliente.
+                p.mb-3 strong Ejempl#[o práctico:] publicación de guías, tutoriales o consejos relacionados con el producto adquirido.
+              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+                figure
+                  img(src='@/assets/curso/tema5/img_13.svg', class="img-fluid")
 
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
+      .col-12.col-lg-10.mb-5
+        .tarjeta--bg-img.color-terciario-cv.rounded-3.overflow-hidden
+          .row.align-items-center.mb-0
+            .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-5
+              figure.m-0
+                img(src="@/assets/curso/tema1/img_11.svg")
+            .col-12.col-md-8.col-lg-10.p-4
+              .row.justify-content-between.align-items-center.g-3
+                .col-12.col-sm
+                  p.mb-0.fw-bold Para ampliar la comprensión del marketing relacional y su impacto en la construcción de vínculos a largo plazo con los clientes, lo invitamos a consultar. Este recurso muestra cómo integrar herramientas digitales para fortalecer la lealtad y el compromiso del cliente: 
+                .col-12.col-sm-auto.pe-4
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=dk9-jCp6oJY" target="_blank")
+                    span Ver video
+                    i.fas.fa-file-download.ms-2
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-10(data-aos="zoom-in-right")
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-1.p-5
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-8.mb-4.mb-lg-0
+                p.mb-4 Escucha el podcast <strong>“Charlas que venden”</strong> y su episodio
+                TarjetaAudio.color-primario-o.mb-0(
+                  texto="<h4 class='mb-0'>Marketing relacional</h4>"
+                  :audio="require('@/assets/curso/tema5/img_15.png')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = true"
+                  style="border: none !important; padding: 0 !important; background: transparent !important;"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .col-8.col-lg-4.d-none.d-lg-block.position-relative
+                figure
+                  img(src='@/assets/curso/tema5/img_15.png', class="cita-decorada__imagen-flotante-1")
 
 </template>
 
