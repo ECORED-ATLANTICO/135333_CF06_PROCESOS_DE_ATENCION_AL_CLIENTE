@@ -59,8 +59,8 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-9.mb-3.mb-lg-0(data-aos="zoom-in-right")
-        TabsA.color-primario-o.mb-0
-          .tarjeta.color-primario-cv.p-4(titulo="Registro de interacciones")
+        TabsA.color-primario-o.mb-0.uno
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Registro de interacciones")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Documenta llamadas, correos, chats y visitas.
@@ -68,7 +68,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_6.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Segmentación de clientes")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Segmentación de clientes")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-8.order-2.order-lg-1.mb-3
                 p.mb-0 Clasifica clientes según comportamiento, preferencias y valor estratégico.
@@ -76,7 +76,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_7.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Automatización de seguimiento")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Automatización de seguimiento")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-8.order-2.order-lg-1.mb-3
                 p.mb-0 Programar alertas y recordatorios automáticos para interacciones futuras.
@@ -84,7 +84,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_8.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Análisis de datos")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Análisis de datos")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-8.order-2.order-lg-1.mb-3
                 p.mb-0 Genera reportes sobre patrones de compra, incidencias y satisfacción.

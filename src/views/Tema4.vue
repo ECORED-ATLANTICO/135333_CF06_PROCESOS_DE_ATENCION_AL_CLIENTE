@@ -92,7 +92,9 @@
       .h2(data-aos="fade-right") 4.3 Trámite
     .mb-0 
 
-    p.mb-3(data-aos="zoom-in-right") El trámite de solicitudes es un proceso estructurado que asegura la correcta recepción, registro, análisis y respuesta de cada petición realizada por el cliente. Su adecuada gestión permite garantizar transparencia, trazabilidad y oportunidad en la atención, además de contribuir a la mejora continua de los procesos internos. Un trámite organizado reduce errores, evita reprocesos y fortalece la percepción de profesionalismo en la organización.
+    p.mb-5(data-aos="zoom-in-right") El trámite de solicitudes es un proceso estructurado que asegura la correcta recepción, registro, análisis y respuesta de cada petición realizada por el cliente. Su adecuada gestión permite garantizar transparencia, trazabilidad y oportunidad en la atención, además de contribuir a la mejora continua de los procesos internos. Un trámite organizado reduce errores, evita reprocesos y fortalece la percepción de profesionalismo en la organización.
+    br
+    br
 
     .bg_img_4.mb-0
 
@@ -133,15 +135,19 @@
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema4/img_14.png', class="img-fluid")
+      br
 
+    br
+    br
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="flip-left")
           h5 Figura 4.
           |    Trámite de solicitudes – Procesos clave
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block").mb-5
-          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none").mb-5
+          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block").mb-3
+          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none").mb-3
           figcaption <b>Nota.</b> Sena 2026.
 </template>
 

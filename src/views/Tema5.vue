@@ -63,8 +63,8 @@
           img(src='@/assets/curso/tema5/img_7.png', class="img-fluid")
       .col-12.col-lg-9.mb-0
         p.mb-3(data-aos="zoom-in-right")
-        TabsA.color-primario-o.mb-0
-          .tarjeta.color-primario-cv.p-4(titulo="Programas de fidelización")
+        TabsA.color-primario-o.mb-0.dos
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Programas de fidelización")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Sistemas de recompensas que incentivan la repetición de compra y fortalecen la lealtad.
@@ -72,7 +72,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_8.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Personalización de la oferta.")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Personalización de la oferta.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Adaptación de productos, servicios y comunicaciones según el perfil del cliente.
@@ -80,7 +80,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_9.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Comunicación continua")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Comunicación continua")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Interacción permanente mediante canales digitales y tradicionales para mantener el vínculo.
@@ -88,7 +88,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_10.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Atención postventa.")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Atención postventa.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Seguimiento después de la compra para garantizar satisfacción y resolver inquietudes.
@@ -96,7 +96,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_11.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Gestión de bases de datos (CRM).")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Gestión de bases de datos (CRM).")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Uso de sistemas tecnológicos para almacenar y analizar información del cliente.
@@ -104,7 +104,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_12.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Marketing de contenido.")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Marketing de contenido.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Generación de información útil y relevante que fortalece la relación con el cliente.

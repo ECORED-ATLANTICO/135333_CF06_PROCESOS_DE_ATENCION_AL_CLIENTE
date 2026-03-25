@@ -200,8 +200,61 @@
           .subtitulo-destacado.mb-4(data-aos="zoom-in-right")
             .subtitulo-destacado__fondo
               h4.subtitulo-destacado__texto Integración del cumplimiento en la gestión organizacional
+          p.mb-4(data-aos="zoom-in-right") Para evitar que el manejo sea reactivo, el cumplimiento debe integrarse en:
+          .cita-decorada
+            blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-4
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-7
+                  ul.list-unstyled.cita-decorada__texto.mb-3
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-check.me-2.flex-shrink-0(style="color:#21C9B8; font-size: 15px; line-height: 1.5;").mb-0
+                      span Planeación estratégica anual.
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-check.me-2.flex-shrink-0(style="color:#21C9B8; font-size: 15px; line-height: 1.5;").mb-0
+                      span Evaluación de desempeño del personal.
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-check.me-2.flex-shrink-0(style="color:#21C9B8; font-size: 15px; line-height: 1.5;").mb-0
+                      span Gestión de riesgos operativos.
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-check.me-2.flex-shrink-0(style="color:#21C9B8; font-size: 15px; line-height: 1.5;").mb-0
+                      span Políticas de calidad y servicio.
+                  p.cita-decorada__texto.mb-2 Esto permite que el cumplimiento deje de ser un indicador aislado y se convierta en un eje transversal de la organización.
+                .col-12.col-lg-5.d-none.d-lg-block 
+                  figure
+                    img(src='@/assets/curso/tema7/img_16.png', class="cita-decorada__imagen-flotante-2")
+      .subtitulo-destacado.mb-4(data-aos="zoom-in-right")
+        .subtitulo-destacado__fondo
+          h4.subtitulo-destacado__texto Impacto del manejo efectivo
 
+      p.mb-5(data-aos="zoom-in-right") Un manejo técnico y estratégico de los niveles de cumplimiento:
 
+      .custom-slider.mb-5(data-aos="zoom-in-right")
+        SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
+          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+            .tarjeta--06.mb-3
+            h5.text-center.mb-4 Disminuye variabilidad en los procesos.
+          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+            .tarjeta--07.mb-3
+            h5.text-center.mb-4 Reduce costos por reprocesos y compensaciones.
+          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+            .tarjeta--08.mb-3
+            h5.text-center.mb-4 Mejora estabilidad operativa.
+          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+            .tarjeta--09.mb-3
+            h5.text-center.mb-4 Incrementa la fidelización del cliente.
+          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+            .tarjeta--10.mb-3
+            h5.text-center.mb-4 Fortalece la ventaja competitiva.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-10.mb-3
+        .titulo-sexto.color-acento-contenido(data-aos="flip-left")
+          h5 Figura 4.
+          |    Trámite de solicitudes – Procesos clave
+        figure(data-aos="flip-left")
+          img(src='@/assets/curso/tema7/img_23.svg', class="img-fluid d-none d-lg-block").mb-3
+          img(src='@/assets/curso/tema7/img_24.svg', class="img-fluid d-block d-lg-none").mb-3
+          figcaption <b>Nota.</b> Sena 2026.
 </template>
 
 <script>

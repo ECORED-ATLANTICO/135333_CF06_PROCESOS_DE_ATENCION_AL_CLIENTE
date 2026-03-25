@@ -36,7 +36,9 @@
     
     p.mb-3(data-aos="zoom-in-right") Para analizar la percepción del cliente, es fundamental identificar los criterios que determinan cómo los consumidores valoran la oferta de la empresa. La siguiente tabla sintetiza los principales factores que influyen en la percepción del cliente, acompañados de ejemplos prácticos que ilustran cada criterio:
     p.mb-5(data-aos="zoom-in-right") Criterios de percepción
- 
+    br
+    br
+    
     .bg_img_4.mb-0
 
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-5.mb-5
@@ -88,6 +90,7 @@
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema2/img_10.png', class="img-fluid")
+      br
 
     Separador
 
@@ -109,8 +112,8 @@
           img(src='@/assets/curso/tema2/img_12.png', class="img-fluid")
       .col-12.col-lg-9.mb-0
         p.mb-3(data-aos="zoom-in-right") Estrategias clave para el manejo de la percepción del cliente
-        TabsA.color-primario-o.mb-0
-          .tarjeta.color-primario-cv.p-4(titulo="Monitoreo de la satisfacción")
+        TabsA.color-primario-o.mb-0.dos
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Monitoreo de la satisfacción")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Medir y analizar la percepción del cliente tras la compra o servicio.
@@ -118,7 +121,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Comunicación clara y transparente")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Comunicación clara y transparente")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Garantizar que el cliente reciba información precisa y confiable.
@@ -126,7 +129,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_14.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Personalización de la experiencia")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Personalización de la experiencia")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Adaptar la oferta y la atención según el perfil y preferencias del cliente.
@@ -134,7 +137,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_15.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Gestión proactiva de incidencias")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Gestión proactiva de incidencias")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Resolver problemas antes de que se conviertan en quejas formales.
@@ -142,7 +145,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_16.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Entrenamiento del personal")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Entrenamiento del personal")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Desarrollar habilidades del equipo en atención y resolución de problemas.
@@ -150,7 +153,7 @@
               .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_17.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4(titulo="Refuerzo de marca.")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Refuerzo de marca.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Fortalecer la relación emocional con el cliente y su fidelidad.
