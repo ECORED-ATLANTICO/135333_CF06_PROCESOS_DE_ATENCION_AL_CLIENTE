@@ -23,7 +23,7 @@
     .bg_img_5.mb-0
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-8.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema3/img_3.png', class="img-fluid")
         .col-12.col-lg-9.mb-0
@@ -45,7 +45,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema3/img_5.png')
-        .bloque-texto-t__texto.col-9.mb-0
+        .bloque-texto-t__texto.col-10.mb-0
           p.mb-0 En la gestión profesional de conflictos, es fundamental utilizar técnicas que se adapten tanto al tipo de problema como al perfil del cliente involucrado. La aplicación adecuada de estas herramientas permite transformar situaciones potencialmente negativas en oportunidades de mejora, fortalecer la confianza y proteger la relación comercial. La siguiente tabla describe las principales técnicas, su propósito y ejemplos de cómo se aplican en la práctica:
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
@@ -54,7 +54,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p <b>Nota.</b> Adaptado de Fisher, R., Ury, W., & Patton, B., (2011). 
+          p Nota. Adaptado de Fisher, R., Ury, W., & Patton, B., (2011). 
         thead
           tr
             th.col-auto.col-lg-3 Técnica
@@ -88,9 +88,9 @@
           h5 Figura 3.
           |    Técnicas de resolución de conflictos
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema3/img_6.svg', class="img-fluid d-none d-lg-block").mb-5
-          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-block d-lg-none").mb-5
-          figcaption <b>Nota.</b> Sena 2026.
+          img(src='@/assets/curso/tema3/img_6.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las diferentes técnicas de resolución de conflictos.").mb-3
+          img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las diferentes técnicas de resolución de conflictos.").mb-3
+          figcaption Nota. Sena 2026.
 
 </template>
 

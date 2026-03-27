@@ -26,7 +26,7 @@
               p.mb-0 Este componente formativo orienta al aprendiz en la aplicación de buenas prácticas en la atención y gestión del cliente, abordando fundamentos conceptuales, protocolos operativos y mecanismos de seguimiento que contribuyen al cumplimiento organizacional y a la mejora continua del servicio.
         p.mb-0(data-aos="zoom-in-right") Durante el desarrollo del componente, el aprendiz adquirirá criterios técnicos para analizar, medir y gestionar el desempeño en la atención al cliente, mediante el uso de indicadores, estrategias preventivas y correctivas, y enfoques orientados a la satisfacción y sostenibilidad empresarial.
     
-    figure.mb-5
+    //figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video

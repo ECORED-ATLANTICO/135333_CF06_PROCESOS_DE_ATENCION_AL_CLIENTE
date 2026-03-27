@@ -25,12 +25,12 @@
                 img(src='@/assets/curso/tema4/img_2.svg', class="img-fluid")
             .col-12.col-lg-9.mb-0(data-aos="zoom-in-right")
               p.mb-0 El manejo estratégico de solicitudes implica un ciclo completo que abarca registro, clasificación, análisis, trámite, resolución y seguimiento, asegurando que cada caso reciba una atención personalizada y documentada. Esta gestión proporciona retroalimentación valiosa para la mejora continua de productos, servicios y procesos internos, transformando cada interacción con el cliente en un recurso de aprendizaje y desarrollo organizacional.
-      .col-6.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
+      .col-8.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img_3.png', class="img-fluid")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-3.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-3.col-lg-1.mb-3.mb-lg-0.d-lg-block.d-none(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema4/img_4.svg', class="img-fluid")
       .col-12.col-lg-11.mb-0
@@ -146,9 +146,9 @@
           h5 Figura 4.
           |    Trámite de solicitudes – Procesos clave
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block").mb-3
-          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none").mb-3
-          figcaption <b>Nota.</b> Sena 2026.
+          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las actividades claves para el tramite de solicitudes.").mb-3
+          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las actividades claves para el tramite de solicitudes.").mb-3
+          figcaption Nota. Sena 2026.
 </template>
 
 <script>

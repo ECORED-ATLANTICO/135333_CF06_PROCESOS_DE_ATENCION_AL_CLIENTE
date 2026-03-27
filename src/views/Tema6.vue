@@ -12,11 +12,11 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema6/img_2.png')
-        .bloque-texto-t__texto.col-9.mb-0
+        .bloque-texto-t__texto.col-10.mb-0
           p.mb-0 La postventa digital hace parte fundamental de la experiencia del cliente en entornos virtuales. No se limita a resolver problemas después de la compra, sino que integra seguimiento, acompañamiento y generación de valor mediante herramientas tecnológicas. En un mercado altamente digitalizado, esta etapa influye directamente en la reputación online, la fidelización y la recompra.
       
       .row.justify-content-center.align-items-center.mb-3
-        .col-2.col-lg-2.mb-3.mb-lg-0.p-1(data-aos="zoom-in-right")
+        .col-4.col-lg-2.mb-3.mb-lg-0.p-1(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema6/img_3.png', class="img-fluid")
         .col-12.col-lg-8.mb-0
@@ -52,7 +52,7 @@
         p.mb-0 La postventa digital no es una acción aislada, sino un proceso estructurado que se desarrolla mediante etapas organizadas y secuenciales. Cada fase cumple una función específica dentro de la experiencia del cliente y contribuye a fortalecer la percepción de confianza, eficiencia y profesionalismo de la empresa.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-3.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-3.col-lg-1.mb-3.mb-lg-0.d-lg-block.d-none(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema6/img_6.svg', class="img-fluid")
       .col-12.col-lg-9.mb-0
@@ -64,7 +64,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p <b>Nota.</b> Sena, 2026.
+          p Nota. Sena, 2026.
         thead
           tr
             th.col-auto.col-lg-3 Etapa
@@ -80,15 +80,15 @@
             td.text-start Monitoreo continuo del estado del pedido o servicio mediante correos electrónicos, mensajes de texto o notificaciones en la plataforma. Permite informar avances, posibles retrasos o cambios en la entrega.
             td.text-start Mantener informado al cliente, reducir ansiedad frente al proceso y demostrar compromiso con el cumplimiento.
           tr
-            td.text-start Soporte y atención
+            td.text-start Soporte y atención.
             td.text-start Gestión de consultas, reclamos o solicitudes a través de chat en línea, redes sociales, correo electrónico o sistemas de tickets. Incluye respuestas personalizadas y soluciones documentadas.
             td.text-start Resolver inquietudes de manera ágil, minimizar experiencias negativas y fortalecer la percepción de respaldo empresarial.
           tr
-            td.text-start Retroalimentación
+            td.text-start Retroalimentación.
             td.text-start Solicitud de opinión mediante encuestas digitales, valoraciones en la plataforma o comentarios en redes sociales. Se analizan los resultados para detectar fallas o fortalezas.
             td.text-start Medir el nivel de satisfacción, identificar oportunidades de mejora y optimizar procesos internos.
           tr
-            td.text-start Fidelización
+            td.text-start Fidelización.
             td.text-start Implementación de estrategias posteriores a la compra como envío de promociones personalizadas, contenido educativo, programas de puntos o beneficios exclusivos. 
             td.text-start Incentivar la recompra, fortalecer la relación a largo plazo y convertir clientes satisfechos en promotores de la marca.
     
@@ -173,7 +173,7 @@
       .col-12.col-lg-9.mb-0
         p.mb-4(data-aos="zoom-in-right") La postventa digital requiere la implementación de procedimientos estandarizados que garanticen coherencia, calidad y rapidez en la atención al cliente. No basta con disponer de canales digitales; es necesario establecer lineamientos claros que orienten la actuación del personal y el uso de herramientas tecnológicas.
         .row.justify-content-center.align-items-center.mb-0
-          .col-2.col-lg-1.mb-3.mb-lg-0.p-1(data-aos="zoom-in-right")
+          .col-4.col-lg-1.mb-3.mb-lg-0.p-1(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema6/img_15.png', class="img-fluid")
           .col-12.col-lg-11.mb-0
@@ -186,7 +186,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p <b>Nota.</b> Sena, 2026.
+          p Nota. Sena, 2026.
         thead
           tr
             th.col-auto.col-lg-3 Procedimiento
@@ -194,23 +194,23 @@
             th.col-auto.col-lg-auto Impacto en la experiencia
         tbody
           tr
-            td.text-start Protocolos de respuesta
+            td.text-start Protocolos de respuesta.
             td.text-start Establecer tiempos máximos y estándares de comunicación digital.
             td.text-start Mejora la percepción de eficiencia.
           tr
-            td.text-start Automatización
+            td.text-start Automatización.
             td.text-start Uso de respuestas automáticas y chatbots para consultas frecuentes.
             td.text-start Reduce tiempos de espera.
           tr
-            td.text-start Escalamiento de casos
+            td.text-start Escalamiento de casos.
             td.text-start Transferencia a niveles superiores cuando el caso lo requiere.
             td.text-start Garantiza solución adecuada.
           tr
-            td.text-start Registro y análisis de datos
+            td.text-start Registro y análisis de datos.
             td.text-start Monitoreo de métricas como tiempo de respuesta y satisfacción.
             td.text-start Permite mejora continua.
           tr
-            td.text-start Protección de datos
+            td.text-start Protección de datos.
             td.text-start Aplicación de políticas de seguridad y confidencialidad digital.
             td.text-start Genera confianza y cumplimiento normativo.
 </template>

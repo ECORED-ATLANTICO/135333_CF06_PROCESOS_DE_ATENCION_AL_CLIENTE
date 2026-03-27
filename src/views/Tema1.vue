@@ -43,7 +43,7 @@
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-check.me-2.flex-shrink-0(style="color:#21C9B8; font-size: 15px; line-height: 1.5;").mb-0
                   span Analizar patrones de consumo para anticipar necesidades y mejorar la atención.
-            .col-4.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+            .col-4.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0.d-lg-block.d-none(data-aos="zoom-in-right")
               figure
                 img(src='@/assets/curso/tema1/img_3.svg', class="img-fluid")
         
@@ -53,9 +53,9 @@
           h5 Figura 1.
           |    Funciones estratégicas del CRM en la gestión de clientes
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid d-none d-lg-block").mb-5
-          img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-block d-lg-none").mb-5
-          figcaption <b>Nota.</b> Sena 2026.
+          img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las cuatro funciones estratégicas principales del CRM en la gestión de clientes.").mb-3
+          img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las cuatro funciones estratégicas principales del CRM en la gestión de clientes.").mb-3
+          figcaption Nota. Sena 2026.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-9.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -65,7 +65,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Documenta llamadas, correos, chats y visitas.
                 p.mb-3 #[strong Ejemplo práctico:] un asesor registra una consulta sobre un producto, incluyendo dudas y recomendaciones dadas.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-2.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_6.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Segmentación de clientes")
@@ -73,7 +73,7 @@
               .col-12.col-lg-8.order-2.order-lg-1.mb-3
                 p.mb-0 Clasifica clientes según comportamiento, preferencias y valor estratégico.
                 p.mb-3 #[strong Ejemplo práctico:] identificar clientes VIP que reciben ofertas exclusivas.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-2.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_7.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Automatización de seguimiento")
@@ -81,7 +81,7 @@
               .col-12.col-lg-8.order-2.order-lg-1.mb-3
                 p.mb-0 Programar alertas y recordatorios automáticos para interacciones futuras.
                 p.mb-3 #[strong Ejemplo práctico:] el sistema envía un correo automático recordando la revisión de un producto adquirido.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-2.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_8.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Análisis de datos")
@@ -89,12 +89,12 @@
               .col-12.col-lg-8.order-2.order-lg-1.mb-3
                 p.mb-0 Genera reportes sobre patrones de compra, incidencias y satisfacción.
                 p.mb-3 #[strong Ejemplo práctico:] detectar que un 20 % de los clientes de un producto específico reporta retrasos en entrega, para optimizar logística.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-2.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema1/img_9.svg', class="img-fluid")
       .col-12.col-lg-3.mb-0(data-aos="zoom-in-right")
         .row
-          .col-5.col-lg-4.mb-3(data-aos="zoom-in-right")
+          .col-5.col-lg-4.mb-3.d-lg-block.d-none(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema1/img_10.svg', class="img-fluid")
           .col-12.col-lg-12.mb-0
@@ -110,7 +110,7 @@
             .col-12.col-md-8.col-lg-10.p-4
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
-                  p.mb-0.fw-bold Para fortalecer la comprensión sobre la gestión de relaciones con clientes, su funcionamiento y aplicación en la asesoría y el seguimiento, lo invitamos a consultar el siguiente recurso audiovisual. Este video permite comprender cómo el CRM apoya la personalización, la fidelización y la mejora continua en la atención al cliente: 
+                  p.mb-0 Para fortalecer la comprensión sobre la gestión de relaciones con clientes, su funcionamiento y aplicación en la asesoría y el seguimiento, lo invitamos a consultar el siguiente recurso audiovisual. Este video permite comprender cómo el CRM apoya la personalización, la fidelización y la mejora continua en la atención al cliente: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Ztr24-JBL2s" target="_blank")
                     span Ver video
@@ -138,23 +138,23 @@
 
       .custom-slider.mb-5(data-aos="zoom-in-right")
         SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--01.mb-3
             h5.text-center.mb-4 Estandarización de procesos 
             .tarjeta--slider__content.text-center.mb-2 Garantiza que todos los asesores sigan un mismo flujo de atención, evitando discrepancias y variaciones en la calidad del servicio.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--02.mb-3
             h5.text-center.mb-4 Optimización del tiempo
             .tarjeta--slider__content.text-center.mb-2 Al contar con pasos claros, los asesores pueden atender más clientes en menos tiempo, con mayor eficiencia y precisión.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--03.mb-3
             h5.text-center.mb-4 Reducción de errores
             .tarjeta--slider__content.text-center.mb-2 Minimiza la omisión de información crítica o pasos importantes, especialmente en interacciones complejas o consultas técnicas.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--04.mb-3
             h5.text-center.mb-4 Registro y trazabilidad
             .tarjeta--slider__content.text-center.mb-2 Toda la información de la interacción queda documentada en el CRM, permitiendo seguimiento, análisis y personalización de futuras comunicaciones
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--05.mb-3
             h5.text-center.mb-4 Mejora continua
             .tarjeta--slider__content.text-center.mb-2 Facilita la evaluación del desempeño del asesor y la identificación de áreas de mejora en la atención al cliente.
@@ -167,7 +167,7 @@
         .tabla-a.mb-5(data-aos="flip-left")
           table
             caption 
-              p <b>Nota.</b> Adaptado de Peppers & Rogers, (2017); Chaffey & Ellis-Chadwick, (2019); Buttle & Maklan (2019).
+              p Nota. Adaptado de Peppers & Rogers, (2017); Chaffey & Ellis-Chadwick, (2019); Buttle & Maklan (2019).
             thead
               tr
                 th.col-auto.col-lg-3 Paso/Acción
@@ -176,36 +176,36 @@
             tbody
               tr
                 td.text-start Saludo y presentación del asesor.
-                td.text-start Chat en vivo, videollamada, correo electrónico
+                td.text-start Chat en vivo, videollamada, correo electrónico.
                 td.text-start Establece rapport y genera confianza desde el inicio.
               tr
                 td.text-start Identificación de necesidades del cliente.
-                td.text-start Formulario en CRM, cuestionario interactivo
+                td.text-start Formulario en CRM, cuestionario interactivo.
                 td.text-start Permite recopilar información precisa y segmentar al cliente según sus preferencias y perfil.
               tr
                 td.text-start Presentación de soluciones.
-                td.text-start Catálogo digital, demostraciones virtuales, videos explicativos
+                td.text-start Catálogo digital, demostraciones virtuales, videos explicativos.
                 td.text-start Muestra productos o servicios de manera clara, resaltando beneficios y diferenciadores.
               tr
                 td.text-start Registro de interacción.
-                td.text-start CRM con campos de comentarios, historial de compras y preferencias
+                td.text-start CRM con campos de comentarios, historial de compras y preferencias.
                 td.text-start Facilita seguimiento futuro, personalización de ofertas y análisis de comportamiento.
               tr
                 td.text-start Confirmación de satisfacción.
-                td.text-start Encuesta rápida, mensaje automatizado de confirmación
+                td.text-start Encuesta rápida, mensaje automatizado de confirmación.
                 td.text-start Verifica que el cliente está satisfecho y genera oportunidades de mejora.
               tr
                 td.text-start Programación de seguimiento.
-                td.text-start Alertas en CRM, recordatorios automáticos, notificaciones push
+                td.text-start Alertas en CRM, recordatorios automáticos, notificaciones push.
                 td.text-start Mantiene la relación postventa activa, fomenta fidelización y posibles ventas futuras.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="flip-left")
       h5 Figura 2.
       |   Etapas del protocolo de asesoría digital
     figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-none d-lg-block").mb-5
-      img(src='@/assets/curso/tema1/img_21.svg', class="img-fluid d-block d-lg-none").mb-5
-      figcaption <b>Nota.</b> Sena 2026.
+      img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las a seis etapas del protocolo de asesoría digital.").mb-3
+      img(src='@/assets/curso/tema1/img_21.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las a seis etapas del protocolo de asesoría digital.").mb-3
+      figcaption Nota. Sena 2026.
 
     .bg_img_2.mb-0
 
@@ -221,7 +221,7 @@
       .mb-0 
 
       .row.justify-content-center.align-items-center.mb-3
-        .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema1/img_23.png', class="img-fluid")
         .col-12.col-lg-9.mb-0
@@ -256,28 +256,29 @@
         .cajon.color-acento-botones.p-5(data-aos="zoom-in-right")
           p.mb-0 Un seguimiento efectivo no solo soluciona problemas, sino que también refuerza la confianza, impulsa la fidelización y aumenta la probabilidad de recompras y recomendaciones.
   
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-12.col-lg-10
-        .tarjeta.color-terciario-cv.rounded-0.p-4.p-lg-5
-          .row.align-items-center
-            .col-8.col-md-4.col-lg-2.mx-auto.text-center.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
+      .col-12.col-lg-10.mb-5
+        .tarjeta--bg-img.color-terciario-cv.rounded-3.overflow-hidden
+          .row.align-items-center.mb-0
+            .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-5
               figure.m-0
-                img(src="@/assets/curso/tema1/img_11.svg", alt="Icono video", class="img-fluid w-100")
-            .col-12.col-md-8.col-lg-10
-              .row.justify-content-between.align-items-center.mb-4
-                .col-12.col-lg-9.mb-3.mb-lg-0
-                  p.mb-0 Con el fin de profundizar en las estrategias de postventa digital y la importancia del seguimiento posterior a la compra, consulte el siguiente material. Este recurso explica cómo la postventa fortalece la relación con el cliente y contribuye a la recompra y lealtad: 
-                .col-12.col-lg-auto.text-center
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=qX4N28LpIQo" target="_blank")
+                img(src="@/assets/curso/tema1/img_11.svg")
+            .col-12.col-md-8.col-lg-10.p-4
+              .row.justify-content-between.align-items-center.g-3
+                .col-12.col-sm
+                  p.mb-2 Con el fin de profundizar en las estrategias de postventa digital y la importancia del seguimiento posterior a la compra, consulte el siguiente material. Este recurso explica cómo la postventa fortalece la relación con el cliente y contribuye a la recompra y lealtad: 
+                .col-12.col-sm-auto.pe-4
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=qX4N28LpIQo" target="_blank").mb-3
                     span Ver video
                     i.fas.fa-file-download.ms-2
-              .row.justify-content-between.align-items-center
-                .col-12.col-lg-9.mb-3.mb-lg-0
-                  p.mb-0 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
-                .col-12.col-lg-auto.text-center
+              .row.justify-content-between.align-items-center.g-3
+                .col-12.col-sm
+                  p.mb-2 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
+                .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://revistacientifica.fce.unam.edu.ar/index.php/visiondefuturo/article/view/557/433" target="_blank")
                     span Ver video
                     i.fas.fa-file-download.ms-2
+   
 </template>
 
 <script>

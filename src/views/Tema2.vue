@@ -10,7 +10,7 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/tema2/img_1.png')
-      .bloque-texto-t__texto.col-9.mb-0
+      .bloque-texto-t__texto.col-10.mb-0
         p.mb-0 La percepción del cliente constituye un elemento central en la gestión de la experiencia de consumo. No se trata solo de la calidad objetiva de productos o servicios, sino de cómo el cliente interpreta, valora y compara cada interacción con la marca. Entender esta percepción permite diseñar estrategias que incrementen la satisfacción, fortalezcan la lealtad y optimicen la toma de decisiones comerciales.
     
     .bg_img_3.mb-0
@@ -62,7 +62,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5 Confianza
             p.mb-0 Seguridad que el cliente siente respecto a la marca o proveedor.
-            p.mb-0 #[strong Ejemplo práctico:]cliente repite compra en una tienda por buen historial de entregas.
+            p.mb-0 #[strong Ejemplo práctico:] cliente repite compra en una tienda por buen historial de entregas.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema2/img_7.png', class="img-fluid")
@@ -78,7 +78,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5 Experiencia emocional.
             p.mb-0 Impacto de factores subjetivos, como emociones, sensaciones y recuerdos.
-            p.mb-0 #[strong Ejemplo práctico:] Cliente se siente cómodo y bien recibido en una tienda física.
+            p.mb-0 #[strong Ejemplo práctico:] cliente se siente cómodo y bien recibido en una tienda física.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema2/img_9.png', class="img-fluid")
@@ -118,7 +118,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Medir y analizar la percepción del cliente tras la compra o servicio.
                 p.mb-3 #[strong Ejemplo práctico:] realizar encuestas postventa, NPS o CSAT y analizar comentarios en canales digitales.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_13.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Comunicación clara y transparente")
@@ -126,7 +126,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Garantizar que el cliente reciba información precisa y confiable.
                 p.mb-3 #[strong Ejemplo práctico:] brindar detalles sobre productos, servicios, precios, garantías y políticas de devolución.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_14.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Personalización de la experiencia")
@@ -134,7 +134,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Adaptar la oferta y la atención según el perfil y preferencias del cliente.
                 p.mb-3 #[strong Ejemplo práctico:] ofrecer recomendaciones personalizadas según historial de compras y comportamiento en la tienda.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_15.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Gestión proactiva de incidencias")
@@ -142,7 +142,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Resolver problemas antes de que se conviertan en quejas formales.
                 p.mb-3 #[strong Ejemplo práctico:] CRM alerta sobre retrasos de entrega y programa seguimiento inmediato con el cliente.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_16.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Entrenamiento del personal")
@@ -150,7 +150,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Desarrollar habilidades del equipo en atención y resolución de problemas.
                 p.mb-3 #[strong Ejemplo práctico:] capacitar al personal en empatía, comunicación efectiva y manejo de situaciones difíciles.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_17.svg', class="img-fluid")
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Refuerzo de marca.")
@@ -158,7 +158,7 @@
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Fortalecer la relación emocional con el cliente y su fidelidad.
                 p.mb-3 #[strong Ejemplo práctico:] implementar programas de fidelización, branding coherente y recompensas por lealtad.
-              .col-6.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
+              .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_18.svg', class="img-fluid")
 
@@ -172,7 +172,7 @@
             .col-12.col-md-8.col-lg-10.p-4
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
-                  p.mb-0.fw-bold Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
+                  p.mb-0 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://doi.org/10.5281/zenodo.17972281" target="_blank")
                     span Ver video

@@ -53,7 +53,7 @@
             p.mb-0 La medición de los niveles de cumplimiento constituye un proceso técnico y sistemático que permite evaluar de manera objetiva el desempeño de la organización frente a los compromisos contractuales y estándares de servicio definidos. Esta medición se fundamenta en la aplicación de indicadores clave de desempeño (KPI), métricas operativas y herramientas tecnológicas que garantizan trazabilidad, control y análisis de datos en tiempo real.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-2.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-4.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid")
       .col-12.col-lg-11.mb-0
@@ -84,7 +84,7 @@
           img(src='@/assets/curso/tema7/img_7.png', class="img-fluid")
       .col-12.col-lg-9.mb-0
         .row.justify-content-center.align-items-center.mb-3
-          .col-2.col-lg-1.mb-3.mb-lg-0.p-1(data-aos="zoom-in-right")
+          .col-2.col-lg-1.mb-3.mb-lg-0.p-1.d-lg-block.d-none(data-aos="zoom-in-right")
             figure.p-0
               img(src='@/assets/curso/tema7/img_8.svg', class="img-fluid")
           .col-12.col-lg-11.mb-0
@@ -103,7 +103,7 @@
       .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema7/img_10.png')
-        .bloque-texto-t__texto.col-9.mb-0
+        .bloque-texto-t__texto.col-10.mb-0
           p.mb-0 El manejo de los niveles de cumplimiento corresponde a la fase de intervención estratégica posterior a la medición. Mientras que la medición permite identificar el estado actual del desempeño, el manejo se enfoca en la toma de decisiones, la implementación de acciones correctivas y la consolidación de una cultura organizacional orientada al cumplimiento.
 
       .row.justify-content-center.align-items-center.mb-5
@@ -122,7 +122,7 @@
       .tabla-a.mb-5(data-aos="flip-left")
         table
           caption 
-            p <b>Nota.</b> Adaptada del ciclo PHVA de W. Edwards Deming (1986), la norma ISO 9001:2015 y el modelo balanced scorecard de Robert Kaplan y David Norton (1996).
+            p Nota. Adaptada del ciclo PHVA de W. Edwards Deming (1986), la norma ISO 9001:2015 y el modelo balanced scorecard de Robert Kaplan y David Norton (1996).
           thead
             tr
               th.col-auto.col-lg-2 Enfoque
@@ -230,31 +230,31 @@
 
       .custom-slider.mb-5(data-aos="zoom-in-right")
         SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--06.mb-3
             h5.text-center.mb-4 Disminuye variabilidad en los procesos.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--07.mb-3
             h5.text-center.mb-4 Reduce costos por reprocesos y compensaciones.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--08.mb-3
             h5.text-center.mb-4 Mejora estabilidad operativa.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--09.mb-3
             h5.text-center.mb-4 Incrementa la fidelización del cliente.
-          .tarjeta--fondo-img-1.h-100(data-aos="zoom-out-up")
+          .tarjeta--fondo-img-1.h-100
             .tarjeta--10.mb-3
             h5.text-center.mb-4 Fortalece la ventaja competitiva.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="flip-left")
-          h5 Figura 4.
+          h5 Figura 5.
           |    Trámite de solicitudes – Procesos clave
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema7/img_23.svg', class="img-fluid d-none d-lg-block").mb-3
-          img(src='@/assets/curso/tema7/img_24.svg', class="img-fluid d-block d-lg-none").mb-3
-          figcaption <b>Nota.</b> Sena 2026.
+          img(src='@/assets/curso/tema7/img_23.svg', class="img-fluid d-none d-lg-block", alt="La figura describe que el manejo técnico y estratégico de los niveles de cumplimiento.").mb-3
+          img(src='@/assets/curso/tema7/img_24.svg', class="img-fluid d-block d-lg-none", alt="La figura describe que el manejo técnico y estratégico de los niveles de cumplimiento.").mb-3
+          figcaption Nota. Sena 2026.
 </template>
 
 <script>
