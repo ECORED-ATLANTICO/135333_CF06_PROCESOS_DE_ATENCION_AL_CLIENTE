@@ -329,7 +329,7 @@ export default {
       link: '',
     },
   ],
-  Creditos: [
+  creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
