@@ -60,7 +60,7 @@
 
       .bloque-texto-g.bloque-texto-g--inverso.color-secundario-v.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema2/img_11.png')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/tema4/img_7.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 Las solicitudes de los clientes pueden clasificarse según su naturaleza y el tipo de respuesta requerida. Comprender estas categorías permite organizar procesos internos, asignar responsables y garantizar respuestas oportunas, aumentando la satisfacción y confianza del cliente. La siguiente tabla presenta los principales tipos de solicitudes y ejemplos prácticos de cómo se aplican en distintos contextos: 
@@ -82,7 +82,7 @@
           div(titulo="Reclamativa ")
             p.mb-0 Petición para corregir un error, resolver incidencias o atender incumplimientos de manera formal.
             p.mb-0 #[strong Ejemplo práctico:] cliente reporta un cobro incorrecto, un producto dañado o retraso en la entrega y pide corrección inmediata con evidencia documental.
-          div(titulo="Administrativa.")
+          div(titulo="Administrativa")
             p.mb-0 Trámites internos, documentales o solicitudes que requieren registro y respuesta formal dentro de la organización.
             p.mb-0 #[strong Ejemplo práctico:] cliente solicita certificación de pago, comprobante de compra, constancia de afiliación o historial de servicios recibidos.
 

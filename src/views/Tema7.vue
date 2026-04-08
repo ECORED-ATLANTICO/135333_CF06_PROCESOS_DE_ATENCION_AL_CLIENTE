@@ -64,13 +64,13 @@
     .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
         AcordionA(tipo="a"  clase-tarjeta="tarjeta tarjeta--color-secundario-cv")
-          div(titulo="Tiempo de respuesta (Response time)")
+          div(titulo="Tiempo de respuesta (<em>Response time</em>)")
             p.mb-0 Mide el plazo promedio transcurrido entre la recepción de una solicitud y la primera respuesta emitida por la organización. Se calcula mediante registros automáticos en sistemas de atención y es fundamental para evaluar eficiencia operativa.
-          div(titulo="Cumplimiento de entregas (On-time delivery rate)")
+          div(titulo="Cumplimiento de entregas (<em>On-time delivery rate</em>)")
             p.mb-0 Indica el porcentaje de pedidos o servicios entregados dentro del plazo acordado con el cliente. Este indicador se obtiene mediante integración entre sistemas logísticos y plataformas de ventas, permitiendo identificar retrasos y cuellos de botella.
           div(titulo="Índice de satisfacción del cliente (CSAT)")
             p.mb-0 Se determina a través de encuestas digitales posteriores al servicio, valoraciones en línea o formularios automatizados. Proporciona una medida cuantitativa de la percepción del cliente respecto al cumplimiento de expectativas.
-          div(titulo="Tasa de resolución en primer contacto (First contact resolution – FCR)")
+          div(titulo="Tasa de resolución en primer contacto (<em>First contact resolution – FCR</em>)")
             p.mb-0 Mide el porcentaje de casos solucionados sin necesidad de transferencias o escalamiento. Este indicador está directamente relacionado con la capacitación del personal y la eficacia de los protocolos de atención.
           div(titulo="Número de reclamaciones recurrentes")
             p.mb-0 Evalúa la frecuencia de incidencias repetitivas asociadas a un mismo proceso o servicio. Se analiza mediante minería de datos y categorización automática de casos, permitiendo detectar fallas estructurales
@@ -165,25 +165,25 @@
     p.mb-4(data-aos="zoom-in-right") Cuando los indicadores muestran resultados por debajo del estándar, se debe activar un protocolo formal de mejora:
     
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-12.col-lg-3.mb-lg-0.mb-4(data-aos="zoom-in-right")
+      .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_11.svg', class="img-fluid") 
           p.mb-0 #[strong Diagnóstico técnico:] Análisis comparativo entre meta y resultado real, identificando brechas porcentuales.
-      .col-12.col-lg-3.mb-lg-0.mb-4(data-aos="zoom-in-right")
+      .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_12.svg', class="img-fluid") 
           p.mb-0 #[strong Análisis de causa raíz:] Aplicación de herramientas como matriz causa-efecto o análisis de procesos para determinar origen estructural del incumplimiento.
-      .col-12.col-lg-3.mb-lg-0.mb-4(data-aos="zoom-in-right")
+      .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_13.svg', class="img-fluid") 
           p.mb-0 #[strong Plan de mejora documentado:] Definición de responsables, cronograma, recursos asignados e indicadores de control.
-      .col-12.col-lg-3.mb-lg-0.mb-4(data-aos="zoom-in-right")
+      .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure

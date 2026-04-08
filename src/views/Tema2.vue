@@ -107,10 +107,10 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-6.col-lg-4.col-xl-3.mb-3.mb-lg-3(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema2/img_12.png', class="img-fluid")
-      .col-12.col-lg-9.mb-0
+      .col-12.col-lg-12.col-xl-9.mb-0
         p.mb-3(data-aos="zoom-in-right") Estrategias clave para el manejo de la percepción del cliente
         TabsA.color-primario-o.mb-0.dos
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Monitoreo de la satisfacción")
