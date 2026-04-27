@@ -57,7 +57,7 @@
         figure
           img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid")
       .col-12.col-lg-11.mb-0
-        p.mb-0(data-aos="zoom-in-right") Para asegurar precisión en los resultados, las empresas implementan sistemas de gestión como plataformas CRM (<em>Customer relationship management</em>), <em>software</em> de gestión de <em>tickets</em>, ERP (<em>Enterprise resource planning</em>) y tableros de control o <em>dashboards</em> analíticos. Estas herramientas permiten consolidar información proveniente de diferentes canales (correo electrónico, <em>chat</em>, redes sociales, <em>call center</em> y plataformas digitales), facilitando la visualización de métricas y la generación de reportes automatizados.
+        p.mb-0(data-aos="zoom-in-right") Para asegurar precisión en los resultados, las empresas implementan sistemas de gestión como plataformas CRM (<em>Customer Relationship Management</em>), <em>software</em> de gestión de <em>tickets</em>, ERP (<em>Enterprise Resource Planning</em>) y tableros de control o <em>dashboards</em> analíticos. Estas herramientas permiten consolidar información proveniente de diferentes canales (correo electrónico, <em>chat</em>, redes sociales, <em>call center</em> y plataformas digitales), facilitando la visualización de métricas y la generación de reportes automatizados.
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales indicadores utilizados para medir los niveles de cumplimiento se encuentran:
 

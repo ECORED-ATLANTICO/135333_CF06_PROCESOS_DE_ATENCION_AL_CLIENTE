@@ -26,7 +26,7 @@
           img(src='@/assets/curso/tema1/img_2.png', class="img-fluid")
       .col-12.col-lg-9.mb-0
         p.mb-3(data-aos="zoom-in-right") La asesoría consiste en el conjunto de acciones organizadas para guiar al cliente en la elección, uso y aprovechamiento de un producto o servicio, asegurando que sus expectativas se cumplan en todo momento.
-        p.mb-3(data-aos="zoom-in-right") En la era digital, el CRM (<em>Customer relationship management</em>) como sistema digital que permite gestionar, centralizar y analizar las interacciones con los clientes para mejorar la atención y fidelización es fundamental para la asesoría, ya que apoya con:
+        p.mb-3(data-aos="zoom-in-right") En la era digital, el CRM (<em>Customer Relationship Management</em>) como sistema digital que permite gestionar, centralizar y analizar las interacciones con los clientes para mejorar la atención y fidelización es fundamental para la asesoría, ya que apoya con:
         .tarjeta.color-terciario-cv.p-5.rounded-3.mb-0(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-10.order-2.order-lg-1(data-aos="zoom-in-right")
@@ -239,7 +239,7 @@
             p.mb-0 #[strong Ejemplo práctico:] un asesor llama 3 días después de recibir un electrodoméstico para asegurarse de que funciona correctamente.
           div(titulo="Correos electrónicos personalizados")
             p.mb-0 Recordar mantenimiento, promociones o productos complementarios.
-            p.mb-0 #[strong Ejemplo práctico:] enviar un <em>email</em> con <em>tips</em> de uso del producto comprado y ofertas relacionadas
+            p.mb-0 #[strong Ejemplo práctico:] enviar un <em>email</em> con <em>tips</em> de uso del producto comprado y ofertas relacionadas.
           div(titulo="Notificaciones automáticas")
             p.mb-0 Alertar sobre próximos servicios, vencimientos o novedades.
             p.mb-0 #[strong Ejemplo práctico:] <em>app</em> envía notificación sobre actualización de <em>software</em> o revisión preventiva.
