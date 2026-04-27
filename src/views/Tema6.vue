@@ -13,7 +13,7 @@
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema6/img_2.png')
         .bloque-texto-t__texto.col-10.mb-0
-          p.mb-0 La postventa digital hace parte fundamental de la experiencia del cliente en entornos virtuales. No se limita a resolver problemas después de la compra, sino que integra seguimiento, acompañamiento y generación de valor mediante herramientas tecnológicas. En un mercado altamente digitalizado, esta etapa influye directamente en la reputación online, la fidelización y la recompra.
+          p.mb-0 La postventa digital hace parte fundamental de la experiencia del cliente en entornos virtuales. No se limita a resolver problemas después de la compra, sino que integra seguimiento, acompañamiento y generación de valor mediante herramientas tecnológicas. En un mercado altamente digitalizado, esta etapa influye directamente en la reputación <em>online</em>, la fidelización y la recompra.
       
       .row.justify-content-center.align-items-center.mb-3
         .col-4.col-lg-2.mb-3.mb-lg-0.p-1(data-aos="zoom-in-right")
@@ -35,7 +35,7 @@
         .col-12.col-lg-9.mb-0
           p.mb-3(data-aos="zoom-in-right") La postventa digital es el conjunto de acciones, procesos y herramientas tecnológicas que una empresa implementa después de concretar una venta a través de canales digitales, con el fin de garantizar satisfacción, resolver incidencias y mantener la relación con el cliente.
           .tarjeta.color-primario-cv.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
-            p.mb-0 Incluye atención mediante chat en línea, correo electrónico, redes sociales, plataformas de tickets, asistentes virtuales y sistemas CRM. Su objetivo no es únicamente solucionar problemas, sino acompañar al cliente durante el uso del producto o servicio.
+            p.mb-0 Incluye atención mediante <em>chat</em> en línea, correo electrónico, redes sociales, plataformas de <em>tickets</em>, asistentes virtuales y sistemas CRM. Su objetivo no es únicamente solucionar problemas, sino acompañar al cliente durante el uso del producto o servicio.
           p.mb-0(data-aos="zoom-in-right") Además, permite recopilar datos estratégicos sobre comportamiento, nivel de satisfacción y oportunidades de mejora, convirtiéndose en una fuente clave para la toma de decisiones comerciales.
 
     Separador
@@ -64,7 +64,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. Sena, 2026.
+          p Nota. SENA, (2026).
         thead
           tr
             th.col-auto.col-lg-3 Etapa
@@ -81,7 +81,7 @@
             td.text-start Mantener informado al cliente, reducir ansiedad frente al proceso y demostrar compromiso con el cumplimiento.
           tr
             td.text-start Soporte y atención.
-            td.text-start Gestión de consultas, reclamos o solicitudes a través de chat en línea, redes sociales, correo electrónico o sistemas de tickets. Incluye respuestas personalizadas y soluciones documentadas.
+            td.text-start Gestión de consultas, reclamos o solicitudes a través de <em>chat</em> en línea, redes sociales, correo electrónico o sistemas de <em>tickets</em>. Incluye respuestas personalizadas y soluciones documentadas.
             td.text-start Resolver inquietudes de manera ágil, minimizar experiencias negativas y fortalecer la percepción de respaldo empresarial.
           tr
             td.text-start Retroalimentación.
@@ -129,14 +129,14 @@
       .py-4.py-md-5.tarjeta--bg-img.color-acento-contenido-cv(titulo="Recepción del requerimiento")
         .row.justify-content-center.align-items-center.mb-5
           .col-12.col-lg-9.order-2.order-lg-1
-            p.mb-0 El cliente contacta a la empresa mediante canales digitales como chat, correo o redes sociales. El sistema debe generar confirmación automática de recepción.
+            p.mb-0 El cliente contacta a la empresa mediante canales digitales como <em>chat</em>, correo o redes sociales. El sistema debe generar confirmación automática de recepción.
           .col-4.col-lg-1.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema6/img_9.svg', class="img-fluid")
       .py-4.py-md-5.tarjeta--bg-img.color-acento-contenido-cv(titulo="Registro en plataforma digital")
         .row.justify-content-center.align-items-center.mb-5
           .col-12.col-lg-9.order-2.order-lg-1
-            p.mb-0 La solicitud se documenta en un sistema CRM o herramienta de gestión de tickets para asegurar trazabilidad y control de tiempos.
+            p.mb-0 La solicitud se documenta en un sistema CRM o herramienta de gestión de <em>tickets</em> para asegurar trazabilidad y control de tiempos.
           .col-4.col-lg-1.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema6/img_10.svg', class="img-fluid")
@@ -186,7 +186,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. Sena, 2026.
+          p Nota. SENA, (2026).
         thead
           tr
             th.col-auto.col-lg-3 Procedimiento
@@ -199,7 +199,7 @@
             td.text-start Mejora la percepción de eficiencia.
           tr
             td.text-start Automatización.
-            td.text-start Uso de respuestas automáticas y chatbots para consultas frecuentes.
+            td.text-start Uso de respuestas automáticas y <em>chatbots</em> para consultas frecuentes.
             td.text-start Reduce tiempos de espera.
           tr
             td.text-start Escalamiento de casos.

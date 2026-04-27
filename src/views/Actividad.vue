@@ -92,7 +92,7 @@ export default {
         {
           id: 5,
           texto:
-            'El perfil del cliente digital se construye analizando comportamiento, intereses y hábitos de consumo online.',
+            'El perfil del cliente digital se construye analizando comportamiento, intereses y hábitos de consumo <em>online</em>.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -316,7 +316,7 @@ export default {
         {
           id: 19,
           texto:
-            'Los tableros de control (dashboards) permiten monitorear métricas clave en tiempo real de manera visual.',
+            'Los tableros de control (<em>dashboards</em>) permiten monitorear métricas clave en tiempo real de manera visual.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [

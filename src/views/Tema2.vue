@@ -54,7 +54,7 @@
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
             h5 Valor percibido
             p.mb-0 Relación percibida entre el beneficio recibido y el costo pagado.
-            p.mb-0 #[strong Ejemplo práctico:] un servicio de streaming con amplia biblioteca y precio accesible.
+            p.mb-0 #[strong Ejemplo práctico:] un servicio de <em>streaming</em> con amplia biblioteca y precio accesible.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/tema2/img_6.png', class="img-fluid")
@@ -76,7 +76,7 @@
               img(src='@/assets/curso/tema2/img_8.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
-            h5 Experiencia emocional.
+            h5 Experiencia emocional
             p.mb-0 Impacto de factores subjetivos, como emociones, sensaciones y recuerdos.
             p.mb-0 #[strong Ejemplo práctico:] cliente se siente cómodo y bien recibido en una tienda física.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
@@ -84,7 +84,7 @@
               img(src='@/assets/curso/tema2/img_9.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-5.order-2.order-lg-1.mb-0
-            h5 Reputación.
+            h5 Reputación
             p.mb-0 Influencia de opiniones de terceros y valoración social de la marca.
             p.mb-0 #[strong Ejemplo práctico:] opiniones positivas en redes sociales y recomendaciones de conocidos.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
@@ -103,7 +103,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img_11.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El manejo de la percepción del cliente requiere acciones estratégicas en cada interacción que la persona tenga con la marca. Estas estrategias buscan generar experiencias positivas, consistentes y memorables que incrementen la satisfacción, la lealtad y la recomendación. La siguiente tabla resume las principales acciones que pueden implementarse, con su objetivo y ejemplos prácticos de aplicación:
+        p.mb-0 El manejo de la percepción del cliente requiere acciones estratégicas en cada interacción que la persona tenga con la marca. Estas estrategias buscan generar experiencias positivas, consistentes y memorables que incrementen la satisfacción, la lealtad y la recomendación. La siguiente información resume las principales acciones que pueden implementarse, con su objetivo y ejemplos prácticos de aplicación:
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -153,11 +153,11 @@
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_17.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="Refuerzo de marca.")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Refuerzo de marca")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Fortalecer la relación emocional con el cliente y su fidelidad.
-                p.mb-3 #[strong Ejemplo práctico:] implementar programas de fidelización, branding coherente y recompensas por lealtad.
+                p.mb-3 #[strong Ejemplo práctico:] implementar programas de fidelización, <em>branding</em> coherente y recompensas por lealtad.
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_18.svg', class="img-fluid")

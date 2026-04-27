@@ -144,11 +144,11 @@
       .col-12.col-lg-10.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="flip-left")
           h5 Figura 4.
-          |    Trámite de solicitudes – Procesos clave
+          |    Trámite de solicitudes – procesos clave
         figure(data-aos="flip-left")
           img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las actividades claves para el tramite de solicitudes.").mb-3
           img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las actividades claves para el tramite de solicitudes.").mb-3
-          figcaption Nota. Sena 2026.
+          figcaption Nota. SENA, (2026).
 </template>
 
 <script>

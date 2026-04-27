@@ -79,7 +79,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Marketing relacional',
+        titulo: '<em>Marketing</em> relacional',
         desarrolloContenidos: true,
         subMenu: [
           { numero: '5.1', titulo: 'Concepto', hash: 't_5_1' },
@@ -186,7 +186,7 @@ export default {
     },
 
     {
-      termino: '<em>CRM (Customer Relationship Management)</em>',
+      termino: 'CRM <em>(Customer Relationship Management)</em>',
       significado:
         'Sistema digital que centraliza y gestiona la información e interacciones con clientes para mejorar la relación comercial.',
     },
@@ -337,7 +337,7 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',

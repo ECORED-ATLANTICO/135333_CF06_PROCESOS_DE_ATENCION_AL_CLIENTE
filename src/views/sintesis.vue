@@ -7,7 +7,7 @@
         figure
         img(src='@/assets/curso/sintesis/img_1.png', class="img-fluid")
       .col-lg-10.mb-3
-        p.mb-0(data-aos="zoom-in-right") El componente formativo Conexión y postventa digital desarrolla los fundamentos y estrategias necesarias para gestionar de manera integral la relación con el cliente en entornos digitales. Integra procesos de asesoría, análisis de la percepción del cliente, resolución de conflictos y gestión estructurada de solicitudes, orientados a fortalecer la experiencia y la satisfacción. Asimismo, aborda el marketing relacional y la postventa digital como herramientas clave para la fidelización, junto con la medición y el manejo de los niveles de cumplimiento, promoviendo una cultura organizacional basada en la calidad, la mejora continua y el cumplimiento de compromisos en escenarios digitales.
+        p.mb-0(data-aos="zoom-in-right") El componente formativo Conexión y postventa digital desarrolla los fundamentos y estrategias necesarias para gestionar de manera integral la relación con el cliente en entornos digitales. Integra procesos de asesoría, análisis de la percepción del cliente, resolución de conflictos y gestión estructurada de solicitudes, orientados a fortalecer la experiencia y la satisfacción. Asimismo, aborda el <em>marketing</em> relacional y la postventa digital como herramientas clave para la fidelización, junto con la medición y el manejo de los niveles de cumplimiento, promoviendo una cultura organizacional basada en la calidad, la mejora continua y el cumplimiento de compromisos en escenarios digitales.
     
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad

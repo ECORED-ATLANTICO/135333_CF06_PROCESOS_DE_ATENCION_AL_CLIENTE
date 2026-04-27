@@ -90,7 +90,7 @@
         figure(data-aos="flip-left")
           img(src='@/assets/curso/tema3/img_6.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las diferentes técnicas de resolución de conflictos.").mb-3
           img(src='@/assets/curso/tema3/img_7.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las diferentes técnicas de resolución de conflictos.").mb-3
-          figcaption Nota. Sena 2026.
+          figcaption Nota. SENA, (2026).
 
 </template>
 

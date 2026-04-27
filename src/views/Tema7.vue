@@ -57,7 +57,7 @@
         figure
           img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid")
       .col-12.col-lg-11.mb-0
-        p.mb-0(data-aos="zoom-in-right") Para asegurar precisión en los resultados, las empresas implementan sistemas de gestión como plataformas CRM (Customer relationship management), software de gestión de tickets, ERP (Enterprise resource planning) y tableros de control o dashboards analíticos. Estas herramientas permiten consolidar información proveniente de diferentes canales (correo electrónico, chat, redes sociales, call center y plataformas digitales), facilitando la visualización de métricas y la generación de reportes automatizados.
+        p.mb-0(data-aos="zoom-in-right") Para asegurar precisión en los resultados, las empresas implementan sistemas de gestión como plataformas CRM (<em>Customer relationship management</em>), <em>software</em> de gestión de <em>tickets</em>, ERP (<em>Enterprise resource planning</em>) y tableros de control o <em>dashboards</em> analíticos. Estas herramientas permiten consolidar información proveniente de diferentes canales (correo electrónico, <em>chat</em>, redes sociales, <em>call center</em> y plataformas digitales), facilitando la visualización de métricas y la generación de reportes automatizados.
 
     p.mb-4(data-aos="zoom-in-right") Entre los principales indicadores utilizados para medir los niveles de cumplimiento se encuentran:
 
@@ -70,10 +70,10 @@
             p.mb-0 Indica el porcentaje de pedidos o servicios entregados dentro del plazo acordado con el cliente. Este indicador se obtiene mediante integración entre sistemas logísticos y plataformas de ventas, permitiendo identificar retrasos y cuellos de botella.
           div(titulo="Índice de satisfacción del cliente (CSAT)")
             p.mb-0 Se determina a través de encuestas digitales posteriores al servicio, valoraciones en línea o formularios automatizados. Proporciona una medida cuantitativa de la percepción del cliente respecto al cumplimiento de expectativas.
-          div(titulo="Tasa de resolución en primer contacto (<em>First contact resolution – FCR</em>)")
+          div(titulo="Tasa de resolución en primer contacto (<em>First Contact Resolution – FCR</em>)")
             p.mb-0 Mide el porcentaje de casos solucionados sin necesidad de transferencias o escalamiento. Este indicador está directamente relacionado con la capacitación del personal y la eficacia de los protocolos de atención.
           div(titulo="Número de reclamaciones recurrentes")
-            p.mb-0 Evalúa la frecuencia de incidencias repetitivas asociadas a un mismo proceso o servicio. Se analiza mediante minería de datos y categorización automática de casos, permitiendo detectar fallas estructurales
+            p.mb-0 Evalúa la frecuencia de incidencias repetitivas asociadas a un mismo proceso o servicio. Se analiza mediante minería de datos y categorización automática de casos, permitiendo detectar fallas estructurales.
       .col-8.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema7/img_6.png', class="img-fluid")
@@ -88,7 +88,7 @@
             figure.p-0
               img(src='@/assets/curso/tema7/img_8.svg', class="img-fluid")
           .col-12.col-lg-11.mb-0
-            p.mb-0(data-aos="zoom-in-right") Adicionalmente, algunas organizaciones incorporan métricas avanzadas como el net promoter score (NPS), análisis de tiempos de ciclo (cycle time), cumplimiento de acuerdos de nivel de servicio (SLA) y auditorías internas de calidad. Estas mediciones pueden integrarse en modelos de gestión como ISO 9001, Balanced scorecard o metodologías de mejora continua como Lean management y Six sigma.
+            p.mb-0(data-aos="zoom-in-right") Adicionalmente, algunas organizaciones incorporan métricas avanzadas como el <em>Net Promoter Score</em> (NPS), análisis de tiempos de ciclo (<em>cycle time</em>), cumplimiento de acuerdos de nivel de servicio (SLA) y auditorías internas de calidad. Estas mediciones pueden integrarse en modelos de gestión como ISO 9001, <em>Balanced scorecar</em> o metodologías de mejora continua como <em>Lean Management</em> y <em>Six Sigma</em>.
         .tarjeta.color-acento-botones-cv.p-5.rounded-3.mb-0(data-aos="zoom-in-right")
           p.mb-0 La medición constante y sistemática permite identificar desviaciones respecto a los estándares establecidos, anticipar riesgos operativos y diseñar planes de acción correctivos o preventivos. Asimismo, facilita la comparación de resultados frente a metas estratégicas internas, indicadores históricos y benchmarks del sector, promoviendo una cultura organizacional orientada a la excelencia y al mejoramiento continuo.
 
@@ -170,25 +170,25 @@
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_11.svg', class="img-fluid") 
-          p.mb-0 #[strong Diagnóstico técnico:] Análisis comparativo entre meta y resultado real, identificando brechas porcentuales.
+          p.mb-0 #[strong Diagnóstico técnico:] análisis comparativo entre meta y resultado real, identificando brechas porcentuales.
       .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_12.svg', class="img-fluid") 
-          p.mb-0 #[strong Análisis de causa raíz:] Aplicación de herramientas como matriz causa-efecto o análisis de procesos para determinar origen estructural del incumplimiento.
+          p.mb-0 #[strong Análisis de causa raíz:] aplicación de herramientas como matriz causa-efecto o análisis de procesos para determinar origen estructural del incumplimiento.
       .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_13.svg', class="img-fluid") 
-          p.mb-0 #[strong Plan de mejora documentado:] Definición de responsables, cronograma, recursos asignados e indicadores de control.
+          p.mb-0 #[strong Plan de mejora documentado:] definición de responsables, cronograma, recursos asignados e indicadores de control.
       .col-12.col-lg-6.col-xl-3.mb-lg-3.mb-4(data-aos="zoom-in-right")
         .tarjeta-numerada.color-secundario-v.h-100
           .tarjeta-numerada__numero.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema7/img_14.svg', class="img-fluid") 
-          p.mb-0 #[strong Evaluación de impacto:] Medición posterior para validar efectividad de las acciones implementadas.
+          p.mb-0 #[strong Evaluación de impacto:] medición posterior para validar efectividad de las acciones implementadas.
 
     .bg_img_11.mb-0
 
@@ -250,11 +250,11 @@
       .col-12.col-lg-10.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="flip-left")
           h5 Figura 5.
-          |    Trámite de solicitudes – Procesos clave
+          |    Trámite de solicitudes procesos clave
         figure(data-aos="flip-left")
           img(src='@/assets/curso/tema7/img_23.svg', class="img-fluid d-none d-lg-block", alt="La figura describe que el manejo técnico y estratégico de los niveles de cumplimiento.").mb-3
           img(src='@/assets/curso/tema7/img_24.svg', class="img-fluid d-block d-lg-none", alt="La figura describe que el manejo técnico y estratégico de los niveles de cumplimiento.").mb-3
-          figcaption Nota. Sena 2026.
+          figcaption Nota. SENA, (2026).
 </template>
 
 <script>

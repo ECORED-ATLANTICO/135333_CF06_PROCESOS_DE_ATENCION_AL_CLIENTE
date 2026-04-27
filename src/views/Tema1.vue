@@ -26,7 +26,7 @@
           img(src='@/assets/curso/tema1/img_2.png', class="img-fluid")
       .col-12.col-lg-9.mb-0
         p.mb-3(data-aos="zoom-in-right") La asesoría consiste en el conjunto de acciones organizadas para guiar al cliente en la elección, uso y aprovechamiento de un producto o servicio, asegurando que sus expectativas se cumplan en todo momento.
-        p.mb-3(data-aos="zoom-in-right") En la era digital, el CRM (Customer relationship management) como sistema digital que permite gestionar, centralizar y analizar las interacciones con los clientes para mejorar la atención y fidelización es fundamental para la asesoría, ya que apoya con:
+        p.mb-3(data-aos="zoom-in-right") En la era digital, el CRM (<em>Customer relationship management</em>) como sistema digital que permite gestionar, centralizar y analizar las interacciones con los clientes para mejorar la atención y fidelización es fundamental para la asesoría, ya que apoya con:
         .tarjeta.color-terciario-cv.p-5.rounded-3.mb-0(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-10.order-2.order-lg-1(data-aos="zoom-in-right")
@@ -46,7 +46,7 @@
             .col-4.col-lg-2.order-1.order-lg-2.mb-3.mb-lg-0.d-lg-block.d-none(data-aos="zoom-in-right")
               figure
                 img(src='@/assets/curso/tema1/img_3.svg', class="img-fluid")
-        
+
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-12.mb-3
         .titulo-sexto.color-acento-contenido(data-aos="flip-left")
@@ -55,7 +55,9 @@
         figure(data-aos="flip-left")
           img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las cuatro funciones estratégicas principales del CRM en la gestión de clientes.").mb-3
           img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las cuatro funciones estratégicas principales del CRM en la gestión de clientes.").mb-3
-          figcaption Nota. Sena 2026.
+          figcaption Nota. SENA, (2026).
+    
+    .p.mb-3 Funciones principales del CRM en la asesoría al cliente:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-9.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -63,7 +65,7 @@
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Registro de interacciones")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
-                p.mb-0 Documenta llamadas, correos, chats y visitas.
+                p.mb-0 Documenta llamadas, correos, <em>chats</em> y visitas.
                 p.mb-3 #[strong Ejemplo práctico:] un asesor registra una consulta sobre un producto, incluyendo dudas y recomendaciones dadas.
               .col-6.col-md-2.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
@@ -153,7 +155,7 @@
           .tarjeta--fondo-img-1.h-100
             .tarjeta--04.mb-3
             h5.text-center.mb-4 Registro y trazabilidad
-            .tarjeta--slider__content.text-center.mb-2 Toda la información de la interacción queda documentada en el CRM, permitiendo seguimiento, análisis y personalización de futuras comunicaciones
+            .tarjeta--slider__content.text-center.mb-2 Toda la información de la interacción queda documentada en el CRM, permitiendo seguimiento, análisis y personalización de futuras comunicaciones.
           .tarjeta--fondo-img-1.h-100
             .tarjeta--05.mb-3
             h5.text-center.mb-4 Mejora continua
@@ -176,8 +178,8 @@
             tbody
               tr
                 td.text-start Saludo y presentación del asesor.
-                td.text-start Chat en vivo, videollamada, correo electrónico.
-                td.text-start Establece rapport y genera confianza desde el inicio.
+                td.text-start <em>Chat</em> en vivo, videollamada, correo electrónico.
+                td.text-start Establece <em>rapport</em> y genera confianza desde el inicio.
               tr
                 td.text-start Identificación de necesidades del cliente.
                 td.text-start Formulario en CRM, cuestionario interactivo.
@@ -196,7 +198,7 @@
                 td.text-start Verifica que el cliente está satisfecho y genera oportunidades de mejora.
               tr
                 td.text-start Programación de seguimiento.
-                td.text-start Alertas en CRM, recordatorios automáticos, notificaciones push.
+                td.text-start Alertas en CRM, recordatorios automáticos, notificaciones <em>push</em>.
                 td.text-start Mantiene la relación postventa activa, fomenta fidelización y posibles ventas futuras.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="flip-left")
@@ -205,14 +207,14 @@
     figure.mb-5(data-aos="flip-left")
       img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las a seis etapas del protocolo de asesoría digital.").mb-3
       img(src='@/assets/curso/tema1/img_21.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las a seis etapas del protocolo de asesoría digital.").mb-3
-      figcaption Nota. Sena 2026.
+      figcaption Nota. SENA, (2026).
 
     .bg_img_2.mb-0
 
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-0
           .cajon.color-terciario.p-4(data-aos="zoom-in-right")
-            p.mb-0 Al implementar este protocolo, las empresas logran que cada interacción con el cliente tenga un propósito claro y medible, fortaleciendo la relación y aumentando la probabilidad de satisfacción y lealtad. Además, el uso del CRM como herramienta central permite que las decisiones estratégicas de marketing y ventas se basen en datos confiables y actualizados, alineando la asesoría con los objetivos comerciales y de experiencia del cliente.
+            p.mb-0 Al implementar este protocolo, las empresas logran que cada interacción con el cliente tenga un propósito claro y medible, fortaleciendo la relación y aumentando la probabilidad de satisfacción y lealtad. Además, el uso del CRM como herramienta central permite que las decisiones estratégicas de <em>marketing</em> y ventas se basen en datos confiables y actualizados, alineando la asesoría con los objetivos comerciales y de experiencia del cliente.
 
       Separador
 
@@ -237,10 +239,10 @@
             p.mb-0 #[strong Ejemplo práctico:] un asesor llama 3 días después de recibir un electrodoméstico para asegurarse de que funciona correctamente.
           div(titulo="Correos electrónicos personalizados")
             p.mb-0 Recordar mantenimiento, promociones o productos complementarios.
-            p.mb-0 #[strong Ejemplo práctico:] enviar un email con tips de uso del producto comprado y ofertas relacionadas
+            p.mb-0 #[strong Ejemplo práctico:] enviar un <em>email</em> con <em>tips</em> de uso del producto comprado y ofertas relacionadas
           div(titulo="Notificaciones automáticas")
             p.mb-0 Alertar sobre próximos servicios, vencimientos o novedades.
-            p.mb-0 #[strong Ejemplo práctico:] app envía notificación sobre actualización de software o revisión preventiva.
+            p.mb-0 #[strong Ejemplo práctico:] <em>app</em> envía notificación sobre actualización de <em>software</em> o revisión preventiva.
           div(titulo="Encuestas postventa")
             p.mb-0 Medir la experiencia del cliente.
             p.mb-0 #[strong Ejemplo práctico:] encuesta NPS o CSAT enviada automáticamente tras la compra.
