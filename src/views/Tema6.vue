@@ -100,10 +100,10 @@
             blockquote.cita-decorada__caja.cita-decorada__caja--fondo-1.p-5
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-8.mb-4.mb-lg-0
-                  p.mb-4 Escucha el podcast <strong>“Charlas que venden”</strong> y su episodio
+                  p.mb-4 Escucha el pódcast <strong>“Charlas que venden”</strong> y su episodio
                   TarjetaAudio.color-primario-o.mb-0(
                     texto="<h4 class='mb-0'>Postventa digital y fidelización del cliente</h4>"
-                    :audio="require('@/assets/curso/tema5/img_15.png')"
+                    :audio="require('@/assets/curso/podcast/Postventa_PODCAST.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = true"
                     style="border: none !important; padding: 0 !important; background: transparent !important;"
                   )

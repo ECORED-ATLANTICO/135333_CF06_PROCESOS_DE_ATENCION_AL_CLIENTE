@@ -64,7 +64,7 @@
       .col-12.col-lg-12.col-xl-9.mb-0
         p.mb-3(data-aos="zoom-in-right")
         TabsA.color-primario-o.mb-0.dos
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="Programas de fidelización")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Programas de fidelización.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Sistemas de recompensas que incentivan la repetición de compra y fortalecen la lealtad.
@@ -72,7 +72,7 @@
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_8.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="Personalización de la oferta")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Personalización de la oferta.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Adaptación de productos, servicios y comunicaciones según el perfil del cliente.
@@ -80,7 +80,7 @@
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_9.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="Comunicación continua")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Comunicación continua.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Interacción permanente mediante canales digitales y tradicionales para mantener el vínculo.
@@ -88,7 +88,7 @@
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_10.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="Atención postventa")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Atención postventa.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Seguimiento después de la compra para garantizar satisfacción y resolver inquietudes.
@@ -96,7 +96,7 @@
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_11.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="Gestión de bases de datos (CRM)")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="Gestión de bases de datos (CRM).")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Uso de sistemas tecnológicos para almacenar y analizar información del cliente.
@@ -104,7 +104,7 @@
               .col-6.col-md-4.col-lg-3.order-1.order-lg-2.mb-3(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema5/img_12.svg', class="img-fluid")
-          .tarjeta.color-primario-cv.p-4.h-100(titulo="<em>Marketing</em> de contenido")
+          .tarjeta.color-primario-cv.p-4.h-100(titulo="<em>Marketing</em> de contenido.")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-7.order-2.order-lg-1.mb-3
                 p.mb-0 Generación de información útil y relevante que fortalece la relación con el cliente.
@@ -126,7 +126,7 @@
                   p.mb-0 Para ampliar la comprensión del <em>marketing</em> relacional y su impacto en la construcción de vínculos a largo plazo con los clientes, lo invitamos a consultar. Este recurso muestra cómo integrar herramientas digitales para fortalecer la lealtad y el compromiso del cliente: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=dk9-jCp6oJY" target="_blank")
-                    span Ver video
+                    span Abrir video
                     i.fas.fa-file-download.ms-2
 
     .row.justify-content-center.align-items-center.mb-5
@@ -135,10 +135,10 @@
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-1.p-5
             .row.justify-content-center.align-items-center
               .col-12.col-lg-8.mb-4.mb-lg-0
-                p.mb-4 Escucha el podcast <strong>“Charlas que venden”</strong> y su episodio
+                p.mb-4 Escucha el pódcast <strong>“Charlas que venden”</strong> y su episodio
                 TarjetaAudio.color-primario-o.mb-0(
                   texto="<h4 class='mb-0'><em>Marketing</em> relacional</h4>"
-                  :audio="require('@/assets/curso/tema5/img_15.png')"
+                  :audio="require('@/assets/curso/podcast/Marketing_relacional_PODCAST.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = true"
                   style="border: none !important; padding: 0 !important; background: transparent !important;"
                 )

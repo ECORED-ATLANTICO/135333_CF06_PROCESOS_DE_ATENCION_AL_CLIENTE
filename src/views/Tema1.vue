@@ -115,7 +115,7 @@
                   p.mb-0 Para fortalecer la comprensión sobre la gestión de relaciones con clientes, su funcionamiento y aplicación en la asesoría y el seguimiento, lo invitamos a consultar el siguiente recurso audiovisual. Este video permite comprender cómo el CRM apoya la personalización, la fidelización y la mejora continua en la atención al cliente: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Ztr24-JBL2s" target="_blank")
-                    span Ver video
+                    span Abrir video
                     i.fas.fa-file-download.ms-2
 
     Separador
@@ -271,14 +271,14 @@
                   p.mb-2 Con el fin de profundizar en las estrategias de postventa digital y la importancia del seguimiento posterior a la compra, consulte el siguiente material. Este recurso explica cómo la postventa fortalece la relación con el cliente y contribuye a la recompra y lealtad: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=qX4N28LpIQo" target="_blank").mb-3
-                    span Enlace
+                    span Abrir enlace
                     i.fas.fa-file-download.ms-2
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
                   p.mb-2 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://revistacientifica.fce.unam.edu.ar/index.php/visiondefuturo/article/view/557/433" target="_blank")
-                    span Enlace
+                    span Abrir enlace
                     i.fas.fa-file-download.ms-2
    
 </template>

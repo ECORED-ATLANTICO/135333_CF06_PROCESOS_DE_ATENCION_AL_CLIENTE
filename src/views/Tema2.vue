@@ -175,7 +175,7 @@
                   p.mb-0 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://doi.org/10.5281/zenodo.17972281" target="_blank")
-                    span Ver video
+                    span Abir video
                     i.fas.fa-file-download.ms-2
 </template>
 
