@@ -34,8 +34,8 @@
         .h2(data-aos="fade-right") 2.2 Criterios
       .mb-0 
     
-    p.mb-3(data-aos="zoom-in-right") Para analizar la percepción del cliente, es fundamental identificar los criterios que determinan cómo los consumidores valoran la oferta de la empresa. La siguiente tabla sintetiza los principales factores que influyen en la percepción del cliente, acompañados de ejemplos prácticos que ilustran cada criterio:
-    p.mb-5(data-aos="zoom-in-right") Criterios de percepción
+    p.mb-3(data-aos="zoom-in-right") Para analizar la percepción del cliente, es fundamental identificar los criterios que determinan cómo los consumidores valoran la oferta de la empresa. A continuación, sintetiza los principales factores que influyen en la percepción del cliente, acompañados de ejemplos prácticos que ilustran cada criterio:
+    p.mb-5(data-aos="zoom-in-right").b Criterios de percepción
     br
     br
     
@@ -111,7 +111,7 @@
         figure
           img(src='@/assets/curso/tema2/img_12.png', class="img-fluid")
       .col-12.col-lg-12.col-xl-9.mb-0
-        p.mb-3(data-aos="zoom-in-right") Estrategias clave para el manejo de la percepción del cliente
+        p.mb-3(data-aos="zoom-in-right").b Estrategias clave para el manejo de la percepción del cliente
         TabsA.color-primario-o.mb-0.dos
           .tarjeta.color-primario-cv.p-4.h-100(titulo="Monitoreo de la satisfacción")
             .row.justify-content-center.align-items-center.mb-0
@@ -168,14 +168,14 @@
           .row.align-items-center.mb-0
             .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-5
               figure.m-0
-                img(src="@/assets/curso/tema1/img_11.svg")
+                img(src="@/assets/curso/tema1/img_pdf.svg")
             .col-12.col-md-8.col-lg-10.p-4
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
                   p.mb-0 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://doi.org/10.5281/zenodo.17972281" target="_blank")
-                    span Abir video
+                    span Abrir enlace
                     i.fas.fa-file-download.ms-2
 </template>
 

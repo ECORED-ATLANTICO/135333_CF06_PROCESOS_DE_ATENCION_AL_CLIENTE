@@ -53,8 +53,8 @@
           h5 Figura 1.
           |    Funciones estratégicas del CRM en la gestión de clientes
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las cuatro funciones estratégicas principales del CRM en la gestión de clientes.").mb-3
-          img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las cuatro funciones estratégicas principales del CRM en la gestión de clientes.").mb-3
+          img(src='@/assets/curso/tema1/img_4.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las cuatro funciones del CRM: centralizar datos de clientes, registrar interacciones, personalizar comunicaciones y analizar comportamientos para anticipar necesidades.").mb-3
+          img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las cuatro funciones del CRM: centralizar datos de clientes, registrar interacciones, personalizar comunicaciones y analizar comportamientos para anticipar necesidades.").mb-3
           figcaption Nota. SENA, (2026).
     
     .p.mb-3 Funciones principales del CRM en la asesoría al cliente:
@@ -112,7 +112,7 @@
             .col-12.col-md-8.col-lg-10.p-4
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
-                  p.mb-0 Para fortalecer la comprensión sobre la gestión de relaciones con clientes, su funcionamiento y aplicación en la asesoría y el seguimiento, lo invitamos a consultar el siguiente recurso audiovisual. Este video permite comprender cómo el CRM apoya la personalización, la fidelización y la mejora continua en la atención al cliente: 
+                  p.mb-0 Para fortalecer la comprensión sobre la gestión de relaciones con clientes, su funcionamiento y aplicación en la asesoría y el seguimiento, lo invitamos a consultar  el siguiente recurso audiovisual. Este video permite comprender cómo el CRM apoya la personalización, la fidelización y la mejora continua en la atención al cliente: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Ztr24-JBL2s" target="_blank")
                     span Abrir video
@@ -205,8 +205,8 @@
       h5 Figura 2.
       |   Etapas del protocolo de asesoría digital
     figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las a seis etapas del protocolo de asesoría digital.").mb-3
-      img(src='@/assets/curso/tema1/img_21.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las a seis etapas del protocolo de asesoría digital.").mb-3
+      img(src='@/assets/curso/tema1/img_20.svg', class="img-fluid d-none d-lg-block", alt="Diagrama de las etapas del protocolo de asesoría digital: saludo, identificación de necesidades, presentación de soluciones, registro de interacción, confirmación de satisfacción y seguimiento.").mb-3
+      img(src='@/assets/curso/tema1/img_21.svg', class="img-fluid d-block d-lg-none", alt="Diagrama de las etapas del protocolo de asesoría digital: saludo, identificación de necesidades, presentación de soluciones, registro de interacción, confirmación de satisfacción y seguimiento.").mb-3
       figcaption Nota. SENA, (2026).
 
     .bg_img_2.mb-0
@@ -229,7 +229,7 @@
         .col-12.col-lg-9.mb-0
           p.mb-0(data-aos="zoom-in-right") El seguimiento constituye un pilar fundamental dentro de la asesoría al cliente, ya que va más allá de la simple verificación de la entrega de un producto o servicio. Su propósito principal es garantizar la satisfacción del cliente, anticipar posibles inconvenientes y generar valor agregado mediante interacciones personalizadas y oportunas. La correcta gestión de la información, registrada en sistemas como el CRM, permite un abordaje estratégico, rápido y adaptado a las necesidades individuales de cada cliente, fortaleciendo la relación comercial y potenciando la fidelización a largo plazo. A continuación, se detallan estrategias para el seguimiento:
 
-      p.mb-3(data-aos="zoom-in-right") Estrategias de seguimiento digital
+      p.mb-3(data-aos="zoom-in-right").b Estrategias de seguimiento digital
 
     .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
@@ -259,7 +259,7 @@
           p.mb-0 Un seguimiento efectivo no solo soluciona problemas, sino que también refuerza la confianza, impulsa la fidelización y aumenta la probabilidad de recompras y recomendaciones.
   
     .row.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-12.col-lg-10.mb-5
+      .col-12.col-lg-10.mb-3
         .tarjeta--bg-img.color-terciario-cv.rounded-3.overflow-hidden
           .row.align-items-center.mb-0
             .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-5
@@ -271,11 +271,20 @@
                   p.mb-2 Con el fin de profundizar en las estrategias de postventa digital y la importancia del seguimiento posterior a la compra, consulte el siguiente material. Este recurso explica cómo la postventa fortalece la relación con el cliente y contribuye a la recompra y lealtad: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=qX4N28LpIQo" target="_blank").mb-3
-                    span Abrir enlace
+                    span Abrir video
                     i.fas.fa-file-download.ms-2
+    
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
+      .col-12.col-lg-10.mb-5
+        .tarjeta--bg-img.color-terciario-cv.rounded-3.overflow-hidden
+          .row.align-items-center.mb-0
+            .col-8.col-md-4.col-lg-2.mx-auto.text-center.p-5
+              figure.m-0
+                img(src="@/assets/curso/tema1/img_pdf.svg")
+            .col-12.col-md-8.col-lg-10.p-4
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
-                  p.mb-2 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema:
+                  p.mb-2 Para ampliar los conocimientos sobre la temática, consultar el siguiente recurso académico, el cual aborda de manera detallada los fundamentos, enfoques y aplicaciones relacionadas con este tema: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://revistacientifica.fce.unam.edu.ar/index.php/visiondefuturo/article/view/557/433" target="_blank")
                     span Abrir enlace

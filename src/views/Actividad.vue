@@ -22,13 +22,13 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar la comprensión sobre la conexión y postventa digital con el cliente.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
           texto:
-            'El valor de los datos digitales depende únicamente de su cantidad.',
+            'La asesoría al cliente consiste únicamente en responder dudas sobre productos y servicios.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -40,11 +40,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 2,
           texto:
-            'Las fuentes digitales pueden ser internas (CRM, ventas) o externas (redes sociales, estadísticas públicas).',
+            'Un CRM permite centralizar información de clientes, registrar interacciones y analizar patrones de consumo para mejorar la atención.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -56,11 +55,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 3,
           texto:
-            'El ciclo de vida del dato incluye recopilación, almacenamiento, análisis y eliminación.',
+            'El protocolo de asesoría digital busca garantizar uniformidad y profesionalismo en la atención al cliente.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -72,11 +70,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 4,
           texto:
-            'Una buena gestión de datos no requiere controles de seguridad ni privacidad.',
+            'La etapa de seguimiento consiste solo en verificar que el producto fue entregado, sin importar la satisfacción del cliente.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -88,43 +85,40 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 5,
           texto:
-            'El perfil del cliente digital se construye analizando comportamiento, intereses y hábitos de consumo <em>online</em>.',
+            'La percepción del cliente depende únicamente de la calidad objetiva del producto.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 6,
           texto:
-            'Todos los clientes digitales se comportan de la misma manera independientemente del segmento.',
+            'La confianza del cliente es uno de los criterios que influyen en su percepción sobre la empresa.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 7,
           texto:
-            'La segmentación permite personalizar la experiencia digital de acuerdo con las necesidades del cliente.',
+            'La resolución de conflictos busca minimizar impactos negativos sobre la satisfacción del cliente y la imagen de la empresa.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -136,11 +130,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 8,
           texto:
-            'La experiencia del cliente digital no influye en la fidelización ni en la conversión.',
+            'La mediación no es una técnica de resolución de conflictos donde un tercero neutral facilita la comunicación entre las partes.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -152,27 +145,25 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 9,
           texto:
-            'Un <em>KPI (Key performance indicator)</em> mide el desempeño de objetivos específicos en campañas digitales.',
+            'Una solicitud solo se considera atendida cuando se recibe el requerimiento; no importa el seguimiento ni la resolución.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 10,
           texto:
-            'El tráfico web solo se refiere al número de visitas y no tiene relación con la conversión.',
+            'El <em>marketing</em> relacional se enfoca en mantener relaciones duraderas con los clientes, no únicamente en la transacción de venta.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -184,11 +175,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 11,
           texto:
-            'La tasa de conversión indica el porcentaje de visitantes que completan una acción deseada, como una compra o registro.',
+            'La personalización de la oferta es una estrategia del <em>marketing</em> relacional que adapta productos y comunicaciones al perfil del cliente.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -200,11 +190,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 12,
           texto:
-            'No es necesario monitorear las métricas web regularmente, ya que los resultados son siempre estables.',
+            'La postventa digital es un proceso reactivo que solo actúa cuando el cliente tiene problemas.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -216,11 +205,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 13,
           texto:
-            'La conversión digital refleja cuántos usuarios realizan la acción deseada y contribuye a la rentabilidad.',
+            'Una correcta postventa digital incluye etapas de confirmación de compra, seguimiento, soporte, retroalimentación y fidelización.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -232,11 +220,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 14,
           texto:
-            'La adquisición de clientes se refiere solo a la captación offline y no digital.',
+            'El procedimiento de escalamiento de casos busca que todos los problemas se resuelvan sin necesidad de pasar a niveles superiores.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -248,11 +235,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 15,
           texto:
-            'El <em>ROI</em> digital permite medir la efectividad de las campañas en términos de retorno económico y optimización de recursos.',
+            'Los niveles de cumplimiento miden el grado en que la empresa satisface los compromisos adquiridos con el cliente.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -264,43 +250,25 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 16,
           texto:
-            'Optimizar campañas digitales no impacta la rentabilidad ni el ROI.',
+            'El indicador CSAT permite medir la percepción del cliente respecto al cumplimiento de sus expectativas.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
           id: 17,
           texto:
-            'Interpretar correctamente los resultados digitales permite tomar decisiones estratégicas basadas en datos.',
-          imagen: require('@/assets/actividad/imagen5.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-
-        {
-          id: 18,
-          texto:
-            'Las decisiones basadas en datos eliminan la necesidad de análisis cualitativo del contexto.',
+            'La medición de los niveles de cumplimiento no requiere sistemas tecnológicos ni registro de datos.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -312,11 +280,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
-          id: 19,
+          id: 18,
           texto:
-            'Los tableros de control (<em>dashboards</em>) permiten monitorear métricas clave en tiempo real de manera visual.',
+            'El manejo estratégico de los niveles de cumplimiento incluye enfoques preventivo, correctivo y estratégico.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -328,11 +295,10 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
-
         {
-          id: 20,
+          id: 19,
           texto:
-            'Los reportes estratégicos solo muestran datos sin facilitar la toma de decisiones.',
+            'La resolución proactiva de conflictos busca anticipar problemas antes de que escalen y mejorar la percepción del cliente.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -341,6 +307,21 @@ export default {
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            'La gestión de solicitudes solo consiste en recibirlas; no es necesario registrarlas ni clasificarlas para su resolución.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

@@ -252,8 +252,8 @@
           h5 Figura 5.
           |    Trámite de solicitudes procesos clave
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema7/img_23.svg', class="img-fluid d-none d-lg-block", alt="La figura describe que el manejo técnico y estratégico de los niveles de cumplimiento.").mb-3
-          img(src='@/assets/curso/tema7/img_24.svg', class="img-fluid d-block d-lg-none", alt="La figura describe que el manejo técnico y estratégico de los niveles de cumplimiento.").mb-3
+          img(src='@/assets/curso/tema7/img_23.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra a  dos personas revisando un tablero con beneficios del cumplimiento operativo: disminuye variabilidad, reduce costos, mejora estabilidad, incrementa fidelización y fortalece la ventaja competitiva.").mb-3
+          img(src='@/assets/curso/tema7/img_24.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra a  dos personas revisando un tablero con beneficios del cumplimiento operativo: disminuye variabilidad, reduce costos, mejora estabilidad, incrementa fidelización y fortalece la ventaja competitiva.").mb-3
           figcaption Nota. SENA, (2026).
 </template>
 

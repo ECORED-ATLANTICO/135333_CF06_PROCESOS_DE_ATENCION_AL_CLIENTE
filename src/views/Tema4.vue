@@ -65,7 +65,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Las solicitudes de los clientes pueden clasificarse según su naturaleza y el tipo de respuesta requerida. Comprender estas categorías permite organizar procesos internos, asignar responsables y garantizar respuestas oportunas, aumentando la satisfacción y confianza del cliente. La siguiente tabla presenta los principales tipos de solicitudes y ejemplos prácticos de cómo se aplican en distintos contextos: 
 
-    p.mb-5(data-aos="zoom-in-right") Tipos de solicitudes y ejemplos de aplicación
+    p.mb-5(data-aos="zoom-in-right").b Tipos de solicitudes y ejemplos de aplicación
 
     .row.justify-content-center.align-items-start.mb-5
       .col-8.col-lg-4.mb-3(data-aos="flip-left")
@@ -146,8 +146,8 @@
           h5 Figura 4.
           |    Trámite de solicitudes – procesos clave
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra las actividades claves para el tramite de solicitudes.").mb-3
-          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra las actividades claves para el tramite de solicitudes.").mb-3
+          img(src='@/assets/curso/tema4/img_15.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra el paso a paso para el  trámite de solicitudes y sus procesos clave: recepción, registro, clasificación, evaluación, resolución y seguimiento de solicitudes para garantizar control, atención y mejora continua.").mb-3
+          img(src='@/assets/curso/tema4/img_16.svg', class="img-fluid d-block d-lg-none", alt="").mb-3
           figcaption Nota. SENA, (2026).
 </template>
 

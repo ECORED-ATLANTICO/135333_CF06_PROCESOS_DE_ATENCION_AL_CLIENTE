@@ -123,7 +123,7 @@
             .col-12.col-md-8.col-lg-10.p-4
               .row.justify-content-between.align-items-center.g-3
                 .col-12.col-sm
-                  p.mb-0 Para ampliar la comprensión del <em>marketing</em> relacional y su impacto en la construcción de vínculos a largo plazo con los clientes, lo invitamos a consultar. Este recurso muestra cómo integrar herramientas digitales para fortalecer la lealtad y el compromiso del cliente: 
+                  p.mb-0 Para ampliar la comprensión del <em>marketing</em> relacional y su impacto en la construcción de vínculos a largo plazo con los clientes, lo invitamos a consultar el siguiente video. Este recurso muestra cómo integrar herramientas digitales para fortalecer la lealtad y el compromiso del cliente: 
                 .col-12.col-sm-auto.pe-4
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=dk9-jCp6oJY" target="_blank")
                     span Abrir video
